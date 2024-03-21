@@ -1,8 +1,9 @@
 {
   "compilerOptions": {
     "target": "es5",
-    "module": "esnext",
+    "module": "ES2015",
     "baseUrl": "./",
+    "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
     "paths": {
       "@/*": [
