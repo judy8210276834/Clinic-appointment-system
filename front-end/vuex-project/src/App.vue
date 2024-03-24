@@ -18,9 +18,9 @@ import NavBar from "./components/NavBar.vue";
 
 <style lang="scss" scoped>
 .router-content {
-  padding: 20px; 
+  padding: 80px 128px 1000px 128px; 
   display: flex;
-  justify-content: center; 
-  align-items: center; 
+  background-color: #C2BFAF;
+  
 }
 </style>
