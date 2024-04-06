@@ -1,6 +1,6 @@
 <template>
   <nav class="navbar">
-    <router-link to="/choose_date" class="logo"><fa icon="house" /></router-link>
+    <router-link to="/" class="logo"><fa icon="house" /></router-link>
     <span>麥醫生針灸診所</span>
     <router-link to="/booking_record" class="booking_record_link">查詢預約紀錄</router-link>
   </nav>

@@ -19,7 +19,6 @@ import NavBar from "./components/NavBar.vue";
 <style lang="scss" scoped>
 .router-content {
   padding: 80px 128px 1000px 128px; 
-  display: flex;
   background-color: #C2BFAF;
   
 }

@@ -1,13 +1,6 @@
 <template>
   <div class="circle-container">
-    <circle-progress
-      :percent="40"
-      :size="66"
-      fill-color="#A6BAAA"
-      empty-color="#D0DDD3"
-      :border-bg-width="10"
-      :border-width="10"
-    />
+    <div class="blank"></div>
     <span class="center-text">{{ day }}</span>
   </div>
 </template>
@@ -29,6 +22,9 @@ export default {
 .circle-container {
   position: relative;
   width: 66px;
+  height: 66px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
 }
 
 .center-text {

@@ -12,11 +12,11 @@ import ReportPage from '../pages/ReportPage.vue';
 import SettingPage from '../pages/SettingPage.vue';
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
+  // {
+  //   path: '/',
+  //   name: 'home',
+  //   component: HomeView
+  // },
   {
     path: '/back_booking_record',
     name: 'back_booking_record',
@@ -38,7 +38,7 @@ const routes = [
     component: BookingRecordPage
   },
   {
-    path: '/choose_date',
+    path: '/',
     name: 'choose_date',
     component: ChooseDatePage
   },
