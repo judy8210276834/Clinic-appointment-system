@@ -25,6 +25,14 @@ export default {
   height: 66px;
   background-color: #d9d9d9;
   border-radius: 50%;
+  @media (max-width: 991px) {
+    width: 50px;
+    height: 50px;
+  }
+  @media (max-width: 575px) {
+    width: 33px;
+    height: 33px;
+  }
 }
 
 .center-text {

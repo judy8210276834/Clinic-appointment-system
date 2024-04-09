@@ -1,6 +1,32 @@
-<script setup>
+<script>
 import "./assets/base.scss";
 import NavBar from "./components/NavBar.vue";
+import Footer from "./components/Footer.vue";
+import axios from "axios";
+import { onMounted } from "vue";
+
+export default {
+  components: {
+    NavBar,
+    Footer,
+  },
+  setup() {
+    onMounted(async () => {
+
+      // ngrok免費版基礎設定
+      // const headers = {
+      //   "ngrok-skip-browser-warning": "true",
+      //   "User-Agent": "MyCustomUserAgent",
+      // };
+
+      // const res = await axios.get(
+      //   "https://ef00-2001-b400-e35f-fa42-6df2-b7a9-85a8-4112.ngrok-free.app/",
+      //   { headers }
+      // );
+
+    });
+  },
+};
 </script>
 
 <template>
@@ -14,12 +40,20 @@ import NavBar from "./components/NavBar.vue";
   <div class="router-content">
     <router-view />
   </div>
+  <footer>
+    <Footer />
+  </footer>
 </template>
 
 <style lang="scss" scoped>
 .router-content {
-  padding: 80px 128px 1000px 128px; 
-  background-color: #C2BFAF;
-  
+  padding: 80px 128px 150px 128px;
+  background-color: #c2bfaf;
+  @media (max-width: 991px) {
+    padding: 80px 90px 150px 90px;
+  }
+  @media (max-width: 575px) {
+    padding: 80px 20px 150px 20px;
+  }
 }
 </style>

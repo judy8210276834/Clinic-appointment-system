@@ -47,10 +47,12 @@ export default {
   background-color: white;
   height: 690px;
   margin-top: 20px;
-  padding: 84px 188px;
+  padding: 84px 120px;
   font-size: 24px;
   font-weight: bold;
   color: #81766fa0;
   text-align: center;
+  @media (max-width: 991px) { padding: 60px 90px; height: 530px; }
+  @media (max-width: 575px) { padding: 84px 20px; height: 400px; }
 }
 </style>
