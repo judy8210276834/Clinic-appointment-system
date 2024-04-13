@@ -50,10 +50,10 @@ export default {
   padding: 80px 128px 150px 128px;
   background-color: #c2bfaf;
   @media (max-width: 991px) {
-    padding: 80px 90px 150px 90px;
+    padding: 60px 90px 100px 90px;
   }
   @media (max-width: 575px) {
-    padding: 80px 20px 150px 20px;
+    padding: 40px 20px 80px 20px;
   }
 }
 </style>

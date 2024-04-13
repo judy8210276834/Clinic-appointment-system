@@ -41,5 +41,11 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
+  @media (max-width: 991px) {
+    font-size: 16px;
+  }
+  @media (max-width: 575px) {
+    font-size: 16px;
+  }
 }
 </style>

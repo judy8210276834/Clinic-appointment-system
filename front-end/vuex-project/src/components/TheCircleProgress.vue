@@ -5,8 +5,8 @@
       :size="circleSize"
       fill-color="#A6BAAA"
       empty-color="#D0DDD3"
-      :border-bg-width="10"
-      :border-width="10"
+      :border-bg-width="5"
+      :border-width="5"
     />
     <span class="center-text">{{ day }}</span>
   </div>
@@ -39,6 +39,7 @@ export default {
 
 <style scoped>
 .circle-container {
+  cursor: pointer;
   position: relative;
   width: 66px;
   @media (max-width: 991px) {
@@ -55,5 +56,11 @@ export default {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 24px;
+  @media (max-width: 991px) {
+    font-size: 16px;
+  }
+  @media (max-width: 575px) {
+    font-size: 16px;
+  }
 }
 </style>

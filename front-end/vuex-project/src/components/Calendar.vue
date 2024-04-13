@@ -25,18 +25,29 @@
 <script>
 import TheCircleProgress from "../components/TheCircleProgress.vue";
 import TheCircleBlank from "../components/TheCircleBlank.vue";
-import { ref, computed } from "vue";
+import { ref, computed, watchEffect } from "vue";
 export default {
   components: {
     TheCircleProgress,
     TheCircleBlank,
   },
-  setup() {
+  props: {
+    year: {
+      type: String,
+      default: () => (new Date()).getFullYear().toString() 
+    },
+    month: {
+      type: String,
+      default: () => ((new Date()).getMonth() + 1).toString() // 預設為當前月份
+    }
+  },
+  setup(props) {
     const weekdays = ref(["日", "一", "二", "三", "四", "五", "六"]);
+    const datesArray = ref([]);
 
     // 計算當月第一天是星期幾
     const firstDayOfWeek = computed(() => {
-      return new Date(2024, 3, 1).getDay();
+      return new Date(props.year, props.month-1, 1).getDay();
     });
 
     // 找出當月所有開放日期、開放設置為true，組成陣列，並跳過星期日
@@ -79,8 +90,12 @@ export default {
       return datesArray;
     };
 
-    const datesArray = getDatesInMonth(2024, 4);
-    console.log(datesArray);
+    watchEffect(() => {
+      datesArray.value = getDatesInMonth(props.year, props.month);
+    });
+
+    
+    // console.log(datesArray);
 
     return {
       weekdays,
@@ -100,10 +115,17 @@ export default {
     text-align: center;
     width: calc(100% / 7);
   }
+
+  @media (max-width: 991px) {
+    margin-top: 30px;
+  }
+  @media (max-width: 575px) {
+    margin-top: 20px;
+  }
 }
 
 .days {
-  margin-top: 40px;
+  margin-top: 10px;
   display: grid;
   text-align: center;
   grid-template-columns: repeat(7, 1fr);
