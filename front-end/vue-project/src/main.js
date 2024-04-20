@@ -9,7 +9,7 @@ import store from "./store";
 library.add(fas);
 
 createApp(App)
-  .component('fa', FontAwesomeIcon)
+  .component("fa", FontAwesomeIcon)
   .use(store)
   .use(router)
   .mount("#app");

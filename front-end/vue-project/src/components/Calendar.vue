@@ -1,26 +1,3 @@
-<template>
-  <div class="weekdays">
-    <div class="weekday" v-for="day in weekdays" :key="day">{{ day }}</div>
-  </div>
-  <div class="days">
-    <div class="blank" v-for="blank in firstDayOfWeek"></div>
-    
-    <template v-for="(data,index) in datesArray"  >
-      <div class="blank-circle" v-if="data.open" :key="'day' + index">
-        
-        <div class="circle-container">
-          <TheCircleProgress :day="index+1"/>
-        </div>
-      </div>
-      <div class="day" v-else :key="'blank-circle' + index">
-       <div class="circle-container">
-          <TheCircleBlank :day="index+1"/>
-        </div>
-      </div>
-    </template>
-   
-  </div>
-</template>
 
 <script>
 import TheCircleProgress from "../components/TheCircleProgress.vue";
@@ -106,7 +83,32 @@ export default {
 };
 </script>
 
+<template>
+  <div class="weekdays">
+    <div class="weekday" v-for="day in weekdays" :key="day">{{ day }}</div>
+  </div>
+  <div class="days">
+    <div class="blank" v-for="blank in firstDayOfWeek"></div>
+    
+    <template v-for="(data,index) in datesArray"  >
+      <div class="blank-circle" v-if="data.open" :key="'day' + index">
+        <div class="circle-container">
+          <TheCircleProgress :day="index+1"/>
+        </div>
+      </div>
+      <div class="day" v-else :key="'blank-circle' + index">
+       <div class="circle-container">
+          <TheCircleBlank :day="index+1"/>
+        </div>
+      </div>
+    </template>
+  </div>
+</template>
+
+
 <style lang="scss" scoped>
+@import '@/assets/_variables.scss'; 
+
 .weekdays {
   display: flex;
   justify-content: space-between;
@@ -116,10 +118,11 @@ export default {
     width: calc(100% / 7);
   }
 
-  @media (max-width: 991px) {
+  @media screen and (max-width: $medium) {
     margin-top: 30px;
   }
-  @media (max-width: 575px) {
+  
+  @media screen and (max-width: $small) {
     margin-top: 20px;
   }
 }

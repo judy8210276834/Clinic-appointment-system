@@ -66,6 +66,8 @@ export default {
 
 
 <style lang="scss" scoped>
+@import '@/assets/_variables.scss'; 
+
 .board{
   background-color: white;
   height: 690px;
@@ -79,7 +81,17 @@ export default {
     cursor: pointer;
     font-size: 18px;
   }
-  @media (max-width: 991px) { padding: 84px 84px 0px 84px; height: 530px; font-size: 20px;}
-  @media (max-width: 575px) { padding: 40px 40px 40px 40px; height: 400px;  font-size: 20px;}
+
+  @media screen and (max-width: $medium) {
+    padding: 84px 84px 0px 84px; 
+    height: 530px; 
+    font-size: 20px;
+  }
+  
+  @media screen and (max-width: $small) {
+    padding: 40px 40px 40px 40px; 
+    height: 400px;  
+    font-size: 20px;
+  }
 }
 </style>
