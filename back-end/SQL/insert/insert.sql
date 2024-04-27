@@ -1,0 +1,1 @@
+INSERT INTO patients (name, phone_number) VALUES ('簡志育', '0930580105');

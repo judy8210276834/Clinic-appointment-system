@@ -1,0 +1,1 @@
+DROP TABLE IF EXISTS patients, users, admin_basic, reports, appointments, clinic_status;
