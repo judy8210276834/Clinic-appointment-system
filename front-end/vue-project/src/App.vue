@@ -1,8 +1,9 @@
 <script>
 import "./assets/base.scss";
 import NavBar from "./components/NavBar.vue";
-import BottomFooter from "./components/BottomFooter.vue";
-import TheLayout from "./components/TheLayout.vue";
+import BottomFooter from "./components/FooTer.vue";
+import LayOut from "./components/LayOut.vue";
+import HelloWorld from "./components/HelloWorld.vue";
 // import axios from "axios";
 import { onMounted } from "vue";
 
@@ -10,7 +11,8 @@ export default {
   components: {
     NavBar,
     BottomFooter,
-    TheLayout,
+    LayOut,
+    HelloWorld
   },
   setup() {
     onMounted(async () => {
@@ -29,14 +31,17 @@ export default {
 </script>
 
 <template>
+  <!-- <HelloWorld /> -->
   <header class="header">
     <NavBar />
   </header>
-  <TheLayout>
+  <LayOut>
     <router-view />
-  </TheLayout>
+  </LayOut>
   <footer>
     <BottomFooter />
   </footer>
 </template>
+<style lang="scss" scoped>
+</style>
 

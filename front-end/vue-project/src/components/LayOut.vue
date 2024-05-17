@@ -1,5 +1,5 @@
 <template>
-  <div class="content">
+  <div class="layout_content">
     <slot></slot>
   </div>
 </template>
@@ -8,10 +8,10 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 @import '@/assets/_variables.scss'; 
 
-.content {
+.layout_content {
   padding: 80px 128px 150px 128px;
   background-color: #c2bfaf;
 

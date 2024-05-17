@@ -3,8 +3,8 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 
-module.exports = {
-  devServer: {
-     host:'172.20.10.3'
-   },
-};
+// module.exports = {
+//   devServer: {
+//      host:'172.20.10.3'
+//    },
+// };

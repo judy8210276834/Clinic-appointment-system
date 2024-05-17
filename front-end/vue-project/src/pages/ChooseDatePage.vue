@@ -2,26 +2,19 @@
 import TheCircleProgress from "../components/TheCircleProgress.vue";
 import BreadCrumbs from "../components/BreadCrumbs.vue";
 import Calendar from "../components/Calendar.vue";
-import { reactive,ref } from "vue";
+import { reactive, ref } from "vue";
 export default {
   components: {
     TheCircleProgress,
     BreadCrumbs,
-    Calendar
+    Calendar,
   },
   setup() {
     const breadcrumbs = reactive([
       {
         label: "預約日期",
         url: { name: "choose_date" },
-      },
-      {
-        label: "預約時間",
-        url: { name: "choose_time" },
-      },
-      {
-        label: "報表",
-      },
+      }
     ]);
     const currentDate = new Date();
     const year = ref(currentDate.getFullYear());
@@ -29,7 +22,7 @@ export default {
 
     const addMonth = () => {
       month.value++;
-      if(month.value > 12){
+      if (month.value > 12) {
         month.value = 1;
         year.value++;
       }
@@ -47,7 +40,7 @@ export default {
       year,
       month,
       addMonth,
-      minusMonth
+      minusMonth,
     };
   },
 };
@@ -56,41 +49,40 @@ export default {
 <template>
   <BreadCrumbs :items="breadcrumbs" />
   <!-- <TheCircleProgress /> -->
-  <div class="board">
-    <fa class="minusMonth" icon="caret-left" @click="minusMonth"/> <span>{{ year }}</span> ． <span>{{ month }}</span> <fa class="addMonth" icon="caret-right" @click="addMonth"/>
-    <Calendar :year="year" :month="month"/>
+  <div class="choosedate_page_board">
+    <fa class="choosedate_page_minusMonth" icon="caret-left" @click="minusMonth" />
+    <span>{{ year }}</span> ． <span>{{ month }}</span>
+    <fa class="choosedate_page_addMonth" icon="caret-right" @click="addMonth" />
+    <Calendar :year="year" :month="month" />
   </div>
-  
-
 </template>
 
+<style scoped lang="scss">
+@import "@/assets/_variables.scss";
 
-<style lang="scss" scoped>
-@import '@/assets/_variables.scss'; 
-
-.board{
+.choosedate_page_board {
   background-color: white;
   height: 690px;
-  margin-top: 20px;
   padding: 84px 84px 0px 84px;
   font-size: 24px;
   font-weight: bold;
-  color: #81766fa0;
+  color: $primaryMiddle;
   text-align: center;
-  .minusMonth,.addMonth{
+  .choosedate_page_minusMonth,
+  .choosedate_page_addMonth {
     cursor: pointer;
     font-size: 18px;
   }
 
   @media screen and (max-width: $medium) {
-    padding: 84px 84px 0px 84px; 
-    height: 530px; 
+    padding: 84px 84px 0px 84px;
+    height: 530px;
     font-size: 20px;
   }
-  
+
   @media screen and (max-width: $small) {
-    padding: 40px 40px 40px 40px; 
-    height: 400px;  
+    padding: 40px 40px 40px 40px;
+    height: 400px;
     font-size: 20px;
   }
 }

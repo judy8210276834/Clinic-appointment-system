@@ -1,8 +1,10 @@
 <template>
   <nav class="navbar">
-    <router-link to="/" class="logo"><fa icon="house" /></router-link>
+    <router-link to="/" class="navbar_logo"><fa icon="house" /></router-link>
     <span>麥醫生針灸診所</span>
-    <router-link to="/booking_record" class="booking_record_link">預約紀錄</router-link>
+    <router-link to="/booking_record" class="navbar_link"
+      >預約紀錄</router-link
+    >
   </nav>
 </template>
 
@@ -10,20 +12,23 @@
 export default {};
 </script>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
+@import "@/assets/_variables.scss";
+
 .navbar {
   display: flex;
   justify-content: space-around;
   align-items: center;
   background-color: #d1cfc3;
   height: 80px;
-//   padding: 0 182px;
-  color: #81766f;
+  //   padding: 0 182px;
+  color: $primaryDark;
   font-weight: bold;
 
-  .logo,.booking_record_link{
-    color: #81766f;
-    text-decoration: none; 
+  .navbar_logo,
+  .navbar_link {
+    color: $primaryDark;
+    text-decoration: none;
   }
 }
 </style>

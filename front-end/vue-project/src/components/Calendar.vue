@@ -1,4 +1,3 @@
-
 <script>
 import TheCircleProgress from "../components/TheCircleProgress.vue";
 import TheCircleBlank from "../components/TheCircleBlank.vue";
@@ -11,12 +10,12 @@ export default {
   props: {
     year: {
       type: String,
-      default: () => (new Date()).getFullYear().toString() 
+      default: () => new Date().getFullYear().toString(),
     },
     month: {
       type: String,
-      default: () => ((new Date()).getMonth() + 1).toString() // 預設為當前月份
-    }
+      default: () => (new Date().getMonth() + 1).toString(), // 預設為當前月份
+    },
   },
   setup(props) {
     const weekdays = ref(["日", "一", "二", "三", "四", "五", "六"]);
@@ -24,7 +23,7 @@ export default {
 
     // 計算當月第一天是星期幾
     const firstDayOfWeek = computed(() => {
-      return new Date(props.year, props.month-1, 1).getDay();
+      return new Date(props.year, props.month - 1, 1).getDay();
     });
 
     // 找出當月所有開放日期、開放設置為true，組成陣列，並跳過星期日
@@ -71,7 +70,6 @@ export default {
       datesArray.value = getDatesInMonth(props.year, props.month);
     });
 
-    
     // console.log(datesArray);
 
     return {
@@ -84,36 +82,37 @@ export default {
 </script>
 
 <template>
-  <div class="weekdays">
-    <div class="weekday" v-for="day in weekdays" :key="day">{{ day }}</div>
-  </div>
-  <div class="days">
-    <div class="blank" v-for="blank in firstDayOfWeek"></div>
-    
-    <template v-for="(data,index) in datesArray"  >
-      <div class="blank-circle" v-if="data.open" :key="'day' + index">
-        <div class="circle-container">
-          <TheCircleProgress :day="index+1"/>
+  <div class="calendar">
+    <div class="calendar_weekdays">
+      <div class="calendar_weekday" v-for="day in weekdays" :key="day">{{ day }}</div>
+    </div>
+    <div class="calendar_days">
+      <div class="calendar_blank" v-for="blank in firstDayOfWeek"></div>
+
+      <template v-for="(data, index) in datesArray">
+        <div class="calendar_circle_container" v-if="data.open" :key="'day' + index">
+          <div class="calendar_circle_progress">
+            <TheCircleProgress :day="index + 1" />
+          </div>
         </div>
-      </div>
-      <div class="day" v-else :key="'blank-circle' + index">
-       <div class="circle-container">
-          <TheCircleBlank :day="index+1"/>
+        <div class="calendar_blank_container" v-else :key="'blank-circle' + index">
+          <div class="calendar_circle_progress">
+            <TheCircleBlank :day="index + 1" />
+          </div>
         </div>
-      </div>
-    </template>
+      </template>
+    </div>
   </div>
 </template>
 
+<style scoped lang="scss">
+@import "@/assets/_variables.scss";
 
-<style lang="scss" scoped>
-@import '@/assets/_variables.scss'; 
-
-.weekdays {
+.calendar_weekdays {
   display: flex;
   justify-content: space-between;
   margin-top: 40px;
-  .weekday {
+  .calendar_weekday {
     text-align: center;
     width: calc(100% / 7);
   }
@@ -121,23 +120,23 @@ export default {
   @media screen and (max-width: $medium) {
     margin-top: 30px;
   }
-  
+
   @media screen and (max-width: $small) {
     margin-top: 20px;
   }
 }
 
-.days {
+.calendar_days {
   margin-top: 10px;
   display: grid;
   text-align: center;
   grid-template-columns: repeat(7, 1fr);
-  .blank,
-  .blank-circle,
-  .day {
+  .calendar_blank,
+  .calendar_circle_container,
+  .calendar_blank_container {
     margin-top: 20px;
   }
-  .circle-container {
+  .calendar_circle_progress {
     display: flex;
     justify-content: center;
   }

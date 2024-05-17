@@ -9,6 +9,7 @@ import HistoricalAmountPage from '../pages/HistoricalAmountPage.vue';
 import LoginPage from '../pages/LoginPage.vue';
 import ReportPage from '../pages/ReportPage.vue';
 import SettingPage from '../pages/SettingPage.vue';
+// import HomeView from '../pages/HomeView.vue';
 
 const routes = [
   // {

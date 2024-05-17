@@ -12,16 +12,15 @@ export default {
 </script>
 
 <template>
-  <div class="circle-container">
-    <div class="blank"></div>
-    <span class="center-text">{{ day }}</span>
+  <div class="thecircleblank">
+    <span class="thecircleblank_text">{{ day }}</span>
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style scoped lang="scss">
 @import "@/assets/_variables.scss";
 
-.circle-container {
+.thecircleblank {
   position: relative;
   width: 66px;
   height: 66px;
@@ -38,7 +37,7 @@ export default {
   }
 }
 
-.center-text {
+.thecircleblank_text {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -47,7 +46,7 @@ export default {
   @media screen and (max-width: $medium) {
     font-size: 16px;
   }
-  
+
   @media screen and (max-width: $small) {
     font-size: 16px;
   }
