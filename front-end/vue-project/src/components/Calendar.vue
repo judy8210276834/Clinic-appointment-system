@@ -32,8 +32,6 @@ export default {
       datesArray.value = getDatesInMonth(props.year, props.month);
     });
 
-    console.log(datesArray);
-
     return {
       weekdays,
       firstDayOfWeek,

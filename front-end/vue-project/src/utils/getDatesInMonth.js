@@ -11,8 +11,8 @@ function getDatesInMonth(year, month) {
     date <= endDate;
     date.setDate(date.getDate() + 1)
   ) {
-    console.log("date", date);
-    console.log("startDate", startDate);
+    // console.log("date", date); 
+    // console.log("startDate", startDate);
 
     // if (date.getDay() === 0) continue;
 

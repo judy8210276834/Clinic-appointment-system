@@ -2,9 +2,12 @@
   <nav class="navbar">
     <router-link to="/" class="navbar_logo"><fa icon="house" /></router-link>
     <span>麥醫生針灸診所</span>
-    <router-link to="/booking_record" class="navbar_link"
-      >預約紀錄</router-link
-    >
+    <span>
+      <router-link to="/booking_record" class="navbar_link"
+        >預約紀錄</router-link
+      >
+      <router-link to="/login" class="login_link">醫生專區</router-link>
+    </span>
   </nav>
 </template>
 
@@ -26,9 +29,11 @@ export default {};
   font-weight: bold;
 
   .navbar_logo,
-  .navbar_link {
+  .navbar_link,
+  .login_link {
     color: $primaryDark;
     text-decoration: none;
+    margin-left: 20px;
   }
 }
 </style>

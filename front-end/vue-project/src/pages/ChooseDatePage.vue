@@ -2,7 +2,8 @@
 import TheCircleProgress from "../components/TheCircleProgress.vue";
 import BreadCrumbs from "../components/BreadCrumbs.vue";
 import Calendar from "../components/Calendar.vue";
-import { reactive, ref } from "vue";
+import { onMounted, reactive, ref } from "vue";
+import { getListAPI,postRegisterAPI } from "@/api/api";
 export default {
   components: {
     TheCircleProgress,
@@ -14,7 +15,7 @@ export default {
       {
         label: "預約日期",
         url: { name: "choose_date" },
-      }
+      },
     ]);
     const currentDate = new Date();
     const year = ref(currentDate.getFullYear());
@@ -35,6 +36,30 @@ export default {
         year.value--;
       }
     };
+
+    const postRegisterFunc = () => {
+      postRegisterAPI({
+        name: '張洛慈',
+        email: 'aaa@gmail.com',
+        password: 'aaa123',
+      })
+        .then((res) => console.log(res))
+        .catch((err) => console.log(err));
+    };
+
+    
+
+    const getList = () => {
+      getListAPI({ gid: 1 })
+        .then((res) => console.log(res))
+        .catch((err) => console.log(err));
+    };
+
+    onMounted(() => {
+      getList();
+      postRegisterFunc();
+    });
+
     return {
       breadcrumbs,
       year,
@@ -50,7 +75,11 @@ export default {
   <BreadCrumbs :items="breadcrumbs" />
   <!-- <TheCircleProgress /> -->
   <div class="choosedate_page_board">
-    <fa class="choosedate_page_minusMonth" icon="caret-left" @click="minusMonth" />
+    <fa
+      class="choosedate_page_minusMonth"
+      icon="caret-left"
+      @click="minusMonth"
+    />
     <span>{{ year }}</span> ． <span>{{ month }}</span>
     <fa class="choosedate_page_addMonth" icon="caret-right" @click="addMonth" />
     <Calendar :year="year" :month="month" />
@@ -62,12 +91,13 @@ export default {
 
 .choosedate_page_board {
   background-color: white;
-  height: 690px;
-  padding: 84px 84px 0px 84px;
+  // height: 690px;
+  padding: 84px;
   font-size: 24px;
   font-weight: bold;
   color: $primaryMiddle;
   text-align: center;
+
   .choosedate_page_minusMonth,
   .choosedate_page_addMonth {
     cursor: pointer;
@@ -75,13 +105,13 @@ export default {
   }
 
   @media screen and (max-width: $medium) {
-    padding: 84px 84px 0px 84px;
+    padding: 84px;
     height: 530px;
     font-size: 20px;
   }
 
   @media screen and (max-width: $small) {
-    padding: 40px 40px 40px 40px;
+    padding: 40px;
     height: 400px;
     font-size: 20px;
   }

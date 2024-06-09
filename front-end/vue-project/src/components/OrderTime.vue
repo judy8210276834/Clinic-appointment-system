@@ -13,6 +13,13 @@ export default {
       default: "15:00",
     },
   },
+  data(){
+    const link = "/booking";
+
+    return {
+      link
+    }
+  }
 };
 </script>
 
@@ -35,7 +42,7 @@ export default {
       <p>已預約: 5人</p>
       <p>可預約: 10人</p>
     </div>
-    <TheButton />
+    <TheButton :link="link" :title="'預約'"/>
   </div>
 </template>
 
