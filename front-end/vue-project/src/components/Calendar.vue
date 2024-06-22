@@ -50,11 +50,13 @@ export default {
       <div class="calendar_blank" v-for="blank in firstDayOfWeek"></div>
 
       <template v-for="(data, index) in datesArray">
+        <!-- 開放日 -->
         <div class="calendar_circle_container" v-if="data.open" :key="'day' + index">
           <div class="calendar_circle_progress">
             <TheCircleProgress :day="index + 1" />
           </div>
         </div>
+        <!-- 關閉日 -->
         <div class="calendar_blank_container" v-else :key="'blank-circle' + index">
           <div class="calendar_circle_progress">
             <TheCircleBlank :day="index + 1" />

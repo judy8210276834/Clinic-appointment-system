@@ -1,21 +1,25 @@
 <script>
 export default {
   props: {
-    link: {
-      type: String,
-      default: "/",
-    },
     title: {
       type: String,
-      default: ""
-    }
+      default: "",
+    },
+    url: {
+      type: String,
+      default: "",
+    },
   },
 };
 </script>
 
 <template>
   <div class="button">
-    <a :href="link"><button>{{ title }}</button></a>
+    <!-- <a v-if="url" :href="url">
+      <button class="the-button">{{ title }}</button>
+    </a>
+    <button v-else>{{ title }}</button> -->
+    <button>{{ title }}</button>
   </div>
 </template>
 

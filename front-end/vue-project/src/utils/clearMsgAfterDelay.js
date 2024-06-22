@@ -1,5 +1,7 @@
-export function clearMsgAfterDelay(msg, delay) {
+import store from '@/store';
+
+export function clearMsgAfterDelay(delay) {
     setTimeout(() => {
-      msg.value = '';
+      store.dispatch('clearMessage');
     }, delay);
   }

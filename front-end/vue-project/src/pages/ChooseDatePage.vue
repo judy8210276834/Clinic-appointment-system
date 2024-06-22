@@ -2,8 +2,7 @@
 import TheCircleProgress from "../components/TheCircleProgress.vue";
 import BreadCrumbs from "../components/BreadCrumbs.vue";
 import Calendar from "../components/Calendar.vue";
-import { onMounted, reactive, ref } from "vue";
-import { getListAPI,postRegisterAPI } from "@/api/api";
+import { reactive, ref } from "vue";
 export default {
   components: {
     TheCircleProgress,
@@ -36,29 +35,6 @@ export default {
         year.value--;
       }
     };
-
-    const postRegisterFunc = () => {
-      postRegisterAPI({
-        name: '張洛慈',
-        email: 'aaa@gmail.com',
-        password: 'aaa123',
-      })
-        .then((res) => console.log(res))
-        .catch((err) => console.log(err));
-    };
-
-    
-
-    const getList = () => {
-      getListAPI({ gid: 1 })
-        .then((res) => console.log(res))
-        .catch((err) => console.log(err));
-    };
-
-    onMounted(() => {
-      getList();
-      postRegisterFunc();
-    });
 
     return {
       breadcrumbs,
@@ -102,6 +78,7 @@ export default {
   .choosedate_page_addMonth {
     cursor: pointer;
     font-size: 18px;
+    margin: 0 15px;
   }
 
   @media screen and (max-width: $medium) {
