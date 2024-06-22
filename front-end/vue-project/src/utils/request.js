@@ -92,7 +92,7 @@ service.interceptors.response.use(
       error.message("連線伺服器失敗");
     }
 
-    Message.error(error.message);
+    console.log(error.message);
     /***** 處理結束 *****/
     //如果不需要錯誤處理，以上的處理過程都可省略
     return Promise.resolve(error.response);

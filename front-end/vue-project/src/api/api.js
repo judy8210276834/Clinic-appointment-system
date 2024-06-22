@@ -31,8 +31,12 @@ export function postRegisterAPI(params) {
   return http.post(`${resquest}/register`, params);
 }
 
-export function getLoginAPI(params) {
+export function postLoginAPI(params) {
   return http.post(`${resquest}/login`, params);
+}
+
+export function postLogoutAPI(params) {
+  return http.post(`${resquest}/logout`, params);
 }
 
 const urlparamToString = (params) => new URLSearchParams(params).toString();
