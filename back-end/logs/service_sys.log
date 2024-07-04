@@ -1,0 +1,200 @@
+[2024-05-02T21:21:59.022] ERROR [patients.py:57 (create_patient)] Exception[InvalidRequestError] occurred. Details: When initializing mapper Mapper[Patients(patients)], expression 'Appointments' failed to locate a name ('Appointments'). If this is a class name, consider adding this relationship() to the <class 'app.models.model.Patients'> class after both dependent classes have been defined.
+[2024-05-02T22:01:53.439] ERROR [patients.py:57 (create_patient)] Exception[NoForeignKeysError] occurred. Details: Could not determine join condition between parent/child tables on relationship Patients.appointments - there are no foreign keys linking these tables.  Ensure that referencing columns are associated with a ForeignKey or ForeignKeyConstraint, or specify a 'primaryjoin' expression.
+[2024-05-02T22:10:02.758] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(4b1b7125-e538-4433-8f8f-0c235bbd39bc) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('4b1b7125-e538-4433-8f8f-0c235bbd39bc'), 'name': '張洛慈', 'phone_number': '0939288973', 'create_time': datetime.datetime(2024, 5, 2, 22, 8, 37, 329122)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:10:40.503] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(4b1b7125-e538-4433-8f8f-0c235bbd39bc) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('4b1b7125-e538-4433-8f8f-0c235bbd39bc'), 'name': '張洛慈', 'phone_number': '0939288972', 'create_time': datetime.datetime(2024, 5, 2, 22, 8, 37, 329122)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:11:29.640] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(4b1b7125-e538-4433-8f8f-0c235bbd39bc) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('4b1b7125-e538-4433-8f8f-0c235bbd39bc'), 'name': '張洛慈', 'phone_number': '0939288971', 'create_time': datetime.datetime(2024, 5, 2, 22, 8, 37, 329122)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:12:43.112] ERROR [patients.py:57 (create_patient)] Exception[FlushError] occurred. Details: Instance <Patients at 0x1067e7210> has a NULL identity key.  If this is an auto-generated value, check that the database table allows generation of new primary key values, and that the mapped Column object is configured to expect these generated values.  Ensure also that this flush() is not occurring at an inappropriate time, such as within a load() event.
+[2024-05-02T22:13:41.285] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(8250f497-f2b8-46f3-bef5-461057838d76) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('8250f497-f2b8-46f3-bef5-461057838d76'), 'name': '張洛慈', 'phone_number': '0939288971', 'create_time': datetime.datetime(2024, 5, 2, 22, 13, 33, 55518)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:13:45.727] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(8250f497-f2b8-46f3-bef5-461057838d76) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('8250f497-f2b8-46f3-bef5-461057838d76'), 'name': '張洛慈', 'phone_number': '0939288970', 'create_time': datetime.datetime(2024, 5, 2, 22, 13, 33, 55518)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:13:46.414] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(8250f497-f2b8-46f3-bef5-461057838d76) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('8250f497-f2b8-46f3-bef5-461057838d76'), 'name': '張洛慈', 'phone_number': '0939288970', 'create_time': datetime.datetime(2024, 5, 2, 22, 13, 33, 55518)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:13:46.773] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(8250f497-f2b8-46f3-bef5-461057838d76) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('8250f497-f2b8-46f3-bef5-461057838d76'), 'name': '張洛慈', 'phone_number': '0939288970', 'create_time': datetime.datetime(2024, 5, 2, 22, 13, 33, 55518)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:13:46.926] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(8250f497-f2b8-46f3-bef5-461057838d76) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('8250f497-f2b8-46f3-bef5-461057838d76'), 'name': '張洛慈', 'phone_number': '0939288970', 'create_time': datetime.datetime(2024, 5, 2, 22, 13, 33, 55518)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:13:47.073] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(8250f497-f2b8-46f3-bef5-461057838d76) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('8250f497-f2b8-46f3-bef5-461057838d76'), 'name': '張洛慈', 'phone_number': '0939288970', 'create_time': datetime.datetime(2024, 5, 2, 22, 13, 33, 55518)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:13:47.221] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(8250f497-f2b8-46f3-bef5-461057838d76) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('8250f497-f2b8-46f3-bef5-461057838d76'), 'name': '張洛慈', 'phone_number': '0939288970', 'create_time': datetime.datetime(2024, 5, 2, 22, 13, 33, 55518)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:13:47.355] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "patients_pkey"
+DETAIL:  Key (uid)=(8250f497-f2b8-46f3-bef5-461057838d76) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('8250f497-f2b8-46f3-bef5-461057838d76'), 'name': '張洛慈', 'phone_number': '0939288970', 'create_time': datetime.datetime(2024, 5, 2, 22, 13, 33, 55518)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:20:47.501] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "name_phone_number"
+DETAIL:  Key (name, phone_number)=(張洛慈, 0939288914) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('eef4fd59-f089-4472-aca7-5431705cdb7b'), 'name': '張洛慈', 'phone_number': '0939288914', 'create_time': datetime.datetime(2024, 5, 2, 22, 20, 25, 974420)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:21:36.405] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "name_phone_number"
+DETAIL:  Key (name, phone_number)=(張洛慈, 0939288917) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('94e5e74d-9521-41ce-868a-0c0c24a92c6a'), 'name': '張洛慈', 'phone_number': '0939288917', 'create_time': datetime.datetime(2024, 5, 2, 22, 21, 36, 401005)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-02T22:21:48.109] ERROR [patients.py:57 (create_patient)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "name_phone_number"
+DETAIL:  Key (name, phone_number)=(張洛慈, 0939288910) already exists.
+
+[SQL: INSERT INTO patients (uid, name, phone_number, create_time) VALUES (%(uid)s::UUID, %(name)s, %(phone_number)s, %(create_time)s)]
+[parameters: {'uid': UUID('239ee5ec-aeea-49cd-963b-e251cd01ca32'), 'name': '張洛慈', 'phone_number': '0939288910', 'create_time': datetime.datetime(2024, 5, 2, 22, 21, 48, 107163)}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-05-08T20:59:30.189] ERROR [patients.py:65 (create_patient)] Exception[HTTPException] occurred. Details: 409: Duplicate patient data
+[2024-05-08T21:06:21.881] ERROR [patients.py:66 (create_patient)] Exception[HTTPException] occurred. Details: 409: Duplicate patient data
+[2024-05-08T21:06:26.834] ERROR [patients.py:66 (create_patient)] Exception[HTTPException] occurred. Details: 409: Duplicate patient data
+[2024-05-08T21:06:31.520] ERROR [patients.py:66 (create_patient)] Exception[HTTPException] occurred. Details: 409: Duplicate patient data
+[2024-05-08T21:06:33.433] ERROR [patients.py:66 (create_patient)] Exception[HTTPException] occurred. Details: 409: Duplicate patient data
+[2024-05-08T21:16:39.211] ERROR [patients.py:74 (create_patient)] Exception[AttributeError] occurred. Details: 'PatientsCreate' object has no attribute 'name1'
+[2024-05-08T21:16:50.192] ERROR [patients.py:74 (create_patient)] Exception[AttributeError] occurred. Details: 'PatientsCreate' object has no attribute 'name1'
+[2024-05-08T21:29:45.079] ERROR [patients.py:55 (create_patient)] Duplicate patient data
+[2024-05-08T21:30:07.195] ERROR [patients.py:55 (create_patient)] Duplicate patient data
+[2024-05-08T21:42:19.509] ERROR [patients.py:55 (create_patient)] Duplicate patient data
+[2024-05-08T21:43:14.202] ERROR [patients.py:75 (create_patient)] Exception[HTTPException] occurred. Details: 409: Patient with this phone number already exists
+[2024-05-08T21:43:54.458] ERROR [patients.py:75 (create_patient)] Exception[HTTPException] occurred. Details: 409: Patient with this phone number already exists
+[2024-05-08T21:44:13.283] ERROR [patients.py:82 (create_patient)] Exception[AttributeError] occurred. Details: 'PatientsCreate' object has no attribute 'name1'
+[2024-05-08T21:44:38.003] ERROR [patients.py:82 (create_patient)] Exception[AttributeError] occurred. Details: 'PatientsCreate' object has no attribute 'name1'
+[2024-05-08T21:46:05.480] ERROR [patients.py:68 (create_patient)] Exception[HTTPException] occurred. Details: 409: Patient with this phone number already exists
+[2024-05-08T21:46:05.481] ERROR [patients.py:85 (create_patient)] Exception[HTTPException] occurred. Details: 409: Patient with this phone number already exists
+[2024-05-08T21:46:06.774] ERROR [patients.py:68 (create_patient)] Exception[HTTPException] occurred. Details: 409: Patient with this phone number already exists
+[2024-05-08T21:46:06.774] ERROR [patients.py:85 (create_patient)] Exception[HTTPException] occurred. Details: 409: Patient with this phone number already exists
+[2024-05-08T21:46:07.211] ERROR [patients.py:68 (create_patient)] Exception[HTTPException] occurred. Details: 409: Patient with this phone number already exists
+[2024-05-08T21:46:07.211] ERROR [patients.py:85 (create_patient)] Exception[HTTPException] occurred. Details: 409: Patient with this phone number already exists
+[2024-05-08T21:57:10.437] ERROR [patients.py:69 (create_patient)] Exception[HTTPException] occurred. Details: 409: Duplicate patient data
+[2024-05-08T21:57:45.696] ERROR [patients.py:69 (create_patient)] Exception[HTTPException] occurred. Details: 409: Duplicate patient data
+[2024-05-08T21:57:52.660] ERROR [patients.py:73 (create_patient)] Exception[AttributeError] occurred. Details: 'PatientsCreate' object has no attribute 'name1'
+[2024-05-08T21:58:13.631] ERROR [patients.py:69 (create_patient)] Exception[HTTPException] occurred. Details: 409: Duplicate patient data
+[2024-06-22T18:23:20.201] ERROR [appointments.py:105 (create_appointment)] Exception[AttributeError] occurred. Details: 'Patients' object has no attribute 'id'
+[2024-06-22T18:24:49.772] ERROR [appointments.py:106 (create_appointment)] Exception[AttributeError] occurred. Details: 'NoneType' object has no attribute '__dict__'
+[2024-06-25T21:28:41.300] ERROR [appointments.py:128 (create_appointment)] Exception[AttributeError] occurred. Details: 'AppointmentsCreate' object has no attribute 'date'
+[2024-06-25T21:36:27.409] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(93e469ca-ce9e-40be-bff6-b40d4ec276fb) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('93e469ca-ce9e-40be-bff6-b40d4ec276fb'), 'fk_patient': UUID('a926be52-5e74-414d-b01f-5117eae0bf4e'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.1', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '15:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 36, 27, 405743), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:37:23.591] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(93e469ca-ce9e-40be-bff6-b40d4ec276fb) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('93e469ca-ce9e-40be-bff6-b40d4ec276fb'), 'fk_patient': UUID('a926be52-5e74-414d-b01f-5117eae0bf4e'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.2', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '15:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 37, 23, 588712), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:38:44.301] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(93e469ca-ce9e-40be-bff6-b40d4ec276fb) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('93e469ca-ce9e-40be-bff6-b40d4ec276fb'), 'fk_patient': UUID('9927ba53-90e4-4175-9584-6b07491d247c'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.2', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '15:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 38, 44, 297709), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:49:10.552] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(31473ddf-e40c-4d87-8231-40b24e450137) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('31473ddf-e40c-4d87-8231-40b24e450137'), 'fk_patient': UUID('9927ba53-90e4-4175-9584-6b07491d247c'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.2', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '15:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 49, 10, 549678), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:49:41.227] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(31473ddf-e40c-4d87-8231-40b24e450137) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('31473ddf-e40c-4d87-8231-40b24e450137'), 'fk_patient': UUID('ab38e5c3-356b-48ff-9a35-41bbe69e51ba'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.3', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '16:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 49, 41, 223192), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:49:52.249] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(31473ddf-e40c-4d87-8231-40b24e450137) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('31473ddf-e40c-4d87-8231-40b24e450137'), 'fk_patient': UUID('ab38e5c3-356b-48ff-9a35-41bbe69e51ba'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.3', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '16:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 49, 52, 246288), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:50:02.361] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(93e469ca-ce9e-40be-bff6-b40d4ec276fb) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('93e469ca-ce9e-40be-bff6-b40d4ec276fb'), 'fk_patient': UUID('ab38e5c3-356b-48ff-9a35-41bbe69e51ba'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.3', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '16:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 50, 2, 359266), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:50:11.095] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(31473ddf-e40c-4d87-8231-40b24e450137) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('31473ddf-e40c-4d87-8231-40b24e450137'), 'fk_patient': UUID('ab38e5c3-356b-48ff-9a35-41bbe69e51ba'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.3', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '16:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 50, 11, 91797), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:50:11.551] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(31473ddf-e40c-4d87-8231-40b24e450137) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('31473ddf-e40c-4d87-8231-40b24e450137'), 'fk_patient': UUID('ab38e5c3-356b-48ff-9a35-41bbe69e51ba'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.3', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '16:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 50, 11, 548249), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:50:11.697] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(31473ddf-e40c-4d87-8231-40b24e450137) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('31473ddf-e40c-4d87-8231-40b24e450137'), 'fk_patient': UUID('ab38e5c3-356b-48ff-9a35-41bbe69e51ba'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.3', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '16:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 50, 11, 696268), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:50:11.849] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(31473ddf-e40c-4d87-8231-40b24e450137) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('31473ddf-e40c-4d87-8231-40b24e450137'), 'fk_patient': UUID('ab38e5c3-356b-48ff-9a35-41bbe69e51ba'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.3', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '16:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 50, 11, 847425), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:50:12.002] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(31473ddf-e40c-4d87-8231-40b24e450137) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('31473ddf-e40c-4d87-8231-40b24e450137'), 'fk_patient': UUID('ab38e5c3-356b-48ff-9a35-41bbe69e51ba'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.3', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '16:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 50, 12, 111), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:50:12.145] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(31473ddf-e40c-4d87-8231-40b24e450137) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('31473ddf-e40c-4d87-8231-40b24e450137'), 'fk_patient': UUID('ab38e5c3-356b-48ff-9a35-41bbe69e51ba'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.3', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '16:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 50, 12, 142817), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:50:12.282] ERROR [appointments.py:128 (create_appointment)] Exception[IntegrityError] occurred. Details: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "appointments_pkey"
+DETAIL:  Key (uid)=(31473ddf-e40c-4d87-8231-40b24e450137) already exists.
+
+[SQL: INSERT INTO appointments (uid, fk_patient, fk_report, fk_user, ip, appointment_status, people_number, date, time_period, medical_fees, create_time, is_completed, is_reported) VALUES (%(uid)s::UUID, %(fk_patient)s::UUID, %(fk_report)s, %(fk_user)s::UUID, %(ip)s, %(appointment_status)s, %(people_number)s, %(date)s, %(time_period)s, %(medical_fees)s, %(create_time)s, %(is_completed)s, %(is_reported)s)]
+[parameters: {'uid': UUID('31473ddf-e40c-4d87-8231-40b24e450137'), 'fk_patient': UUID('ab38e5c3-356b-48ff-9a35-41bbe69e51ba'), 'fk_report': None, 'fk_user': None, 'ip': '127.0.0.3', 'appointment_status': 2, 'people_number': 1, 'date': datetime.date(2024, 6, 21), 'time_period': '16:00', 'medical_fees': 100, 'create_time': datetime.datetime(2024, 6, 25, 21, 50, 12, 280261), 'is_completed': False, 'is_reported': False}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+[2024-06-25T21:51:51.888] ERROR [appointments.py:128 (create_appointment)] Exception[FlushError] occurred. Details: Instance <Appointments at 0x104315810> has a NULL identity key.  If this is an auto-generated value, check that the database table allows generation of new primary key values, and that the mapped Column object is configured to expect these generated values.  Ensure also that this flush() is not occurring at an inappropriate time, such as within a load() event.
+[2024-06-25T21:55:01.135] ERROR [patients.py:102 (create_patient)] Exception[HTTPException] occurred. Details: 409: Duplicate patient data

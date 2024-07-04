@@ -1,4 +1,5 @@
 from fastapi import APIRouter, Depends
+from starlette.responses import JSONResponse
 
 # from app.core.auth import basic_authenticate_user
 from app.routers.v1.endpoints import (
@@ -14,7 +15,14 @@ from app.routers.v1.endpoints import (
 router_v1 = APIRouter()
 # router_v1 = APIRouter(dependencies=[Depends(basic_authenticate_user)])
 
-router_v1.include_router(auth.router, prefix="/auth", tags=["Token Authentication"])
+
+## [GET]: Test
+@router_v1.get("", tags=["Test"])
+async def test():
+    return JSONResponse(status_code=200, content="Here goes the apis")
+
+
+router_v1.include_router(auth.router, prefix="/auth", tags=["Auth"])
 router_v1.include_router(patients.router, prefix="/patients", tags=["Patients"])
 router_v1.include_router(users.router, prefix="/users", tags=["Users"])
 router_v1.include_router(admin_basic.router, prefix="/admin-basic", tags=["Admin Basic"])

@@ -31,3 +31,216 @@
 [2024-04-27T20:46:11.714] INFO:     127.0.0.1:49827 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
 [2024-04-27T20:46:20.809] INFO:     127.0.0.1:49840 - GET /CAS/api/v1/auth/ HTTP/1.1 - 200 OK
 [2024-04-27T20:46:29.447] INFO:     127.0.0.1:49850 - GET /CAS/api/v1/auth/ HTTP/1.1 - 200 OK
+[2024-04-27T21:26:46.171] INFO:     127.0.0.1:52504 - GET /docs HTTP/1.1 - 200 OK
+[2024-04-27T21:26:46.308] INFO:     127.0.0.1:52504 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-04-27T22:10:33.418] INFO:     127.0.0.1:55373 - GET /CAS/api/v1/appointments/ HTTP/1.1 - 200 OK
+[2024-05-02T21:19:23.798] INFO:     127.0.0.1:64043 - GET /docs HTTP/1.1 - 200 OK
+[2024-05-02T21:19:23.914] INFO:     127.0.0.1:64043 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-05-02T21:19:23.918] INFO:     127.0.0.1:64044 - GET /apple-touch-icon-precomposed.png HTTP/1.1 - 404 Not Found
+[2024-05-02T21:19:23.920] INFO:     127.0.0.1:64044 - GET /apple-touch-icon.png HTTP/1.1 - 404 Not Found
+[2024-05-02T21:19:24.936] INFO:     127.0.0.1:64043 - GET / HTTP/1.1 - 200 OK
+[2024-05-02T21:19:28.793] INFO:     127.0.0.1:64043 - GET / HTTP/1.1 - 200 OK
+[2024-05-02T21:19:32.566] INFO:     127.0.0.1:64043 - GET /docs HTTP/1.1 - 200 OK
+[2024-05-02T21:19:32.669] INFO:     127.0.0.1:64043 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-05-02T21:21:59.024] INFO:     127.0.0.1:64446 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:01:53.441] INFO:     127.0.0.1:53700 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:08:43.677] INFO:     127.0.0.1:54635 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:10:02.760] INFO:     127.0.0.1:54838 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:10:40.506] INFO:     127.0.0.1:54926 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:11:29.641] INFO:     127.0.0.1:55044 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:12:43.113] INFO:     127.0.0.1:55216 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:13:38.564] INFO:     127.0.0.1:55346 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:13:41.287] INFO:     127.0.0.1:55346 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:13:45.728] INFO:     127.0.0.1:55346 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:13:46.416] INFO:     127.0.0.1:55346 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:13:46.775] INFO:     127.0.0.1:55346 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:13:46.927] INFO:     127.0.0.1:55346 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:13:47.073] INFO:     127.0.0.1:55346 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:13:47.222] INFO:     127.0.0.1:55346 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:13:47.356] INFO:     127.0.0.1:55346 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:20:37.191] INFO:     127.0.0.1:56272 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:20:42.433] INFO:     127.0.0.1:56281 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:20:46.682] INFO:     127.0.0.1:56281 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:20:47.502] INFO:     127.0.0.1:56281 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:20:57.404] INFO:     127.0.0.1:56315 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:21:01.432] INFO:     127.0.0.1:56315 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:21:34.962] INFO:     127.0.0.1:56415 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:21:36.406] INFO:     127.0.0.1:56415 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:21:39.798] INFO:     127.0.0.1:56415 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:21:44.258] INFO:     127.0.0.1:56415 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:21:47.076] INFO:     127.0.0.1:56415 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-02T22:21:48.110] INFO:     127.0.0.1:56415 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-02T22:25:51.404] INFO:     127.0.0.1:57078 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-08T20:46:25.893] INFO:     127.0.0.1:54161 - GET /docs HTTP/1.1 - 200 OK
+[2024-05-08T20:46:26.008] INFO:     127.0.0.1:54161 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-05-08T20:46:26.015] INFO:     127.0.0.1:54162 - GET /apple-touch-icon-precomposed.png HTTP/1.1 - 404 Not Found
+[2024-05-08T20:46:26.019] INFO:     127.0.0.1:54162 - GET /apple-touch-icon.png HTTP/1.1 - 404 Not Found
+[2024-05-08T20:58:54.567] INFO:     127.0.0.1:56537 - GET /docs HTTP/1.1 - 200 OK
+[2024-05-08T20:58:54.678] INFO:     127.0.0.1:56537 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-05-08T20:59:30.191] INFO:     127.0.0.1:56647 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:05:56.732] INFO:     127.0.0.1:57874 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:06:02.358] INFO:     127.0.0.1:57888 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:06:03.057] INFO:     127.0.0.1:57888 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:06:21.883] INFO:     127.0.0.1:57959 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:06:26.837] INFO:     127.0.0.1:57959 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:06:31.522] INFO:     127.0.0.1:57959 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:06:33.436] INFO:     127.0.0.1:57959 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:06:47.351] INFO:     127.0.0.1:58043 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:09:43.157] INFO:     127.0.0.1:58606 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:09:45.233] INFO:     127.0.0.1:58606 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:10:51.147] INFO:     127.0.0.1:58826 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:10:57.880] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:10:58.849] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:10:59.367] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:10:59.721] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:10:59.884] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:11:00.042] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:11:00.182] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:11:00.343] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:11:00.488] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:11:04.370] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:11:04.795] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:11:04.966] INFO:     127.0.0.1:58847 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:11:15.468] INFO:     127.0.0.1:58905 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-08T21:11:16.421] INFO:     127.0.0.1:58905 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:11:17.040] INFO:     127.0.0.1:58905 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:10.859] INFO:     127.0.0.1:59650 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:21.130] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:22.026] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:22.525] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:22.945] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:23.202] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:23.909] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:24.210] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:24.378] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:24.510] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:24.687] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:15:24.807] INFO:     127.0.0.1:59687 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:16:39.213] INFO:     127.0.0.1:59940 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:16:44.308] INFO:     127.0.0.1:59954 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:16:50.194] INFO:     127.0.0.1:59974 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:22:09.056] INFO:     127.0.0.1:60992 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:23:09.302] INFO:     127.0.0.1:61189 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:23:22.523] INFO:     127.0.0.1:61236 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-08T21:24:15.908] INFO:     127.0.0.1:61410 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-08T21:24:24.632] INFO:     127.0.0.1:61442 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-08T21:24:31.601] INFO:     127.0.0.1:61484 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-08T21:25:28.889] INFO:     127.0.0.1:61674 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-08T21:25:44.294] INFO:     127.0.0.1:61730 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:26:05.095] INFO:     127.0.0.1:61801 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:26:24.221] INFO:     127.0.0.1:61876 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:26:32.730] INFO:     127.0.0.1:61910 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:26:33.218] INFO:     127.0.0.1:61910 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:27:02.267] INFO:     127.0.0.1:62005 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:29:45.081] INFO:     127.0.0.1:62518 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:30:07.197] INFO:     127.0.0.1:62594 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:42:19.511] INFO:     127.0.0.1:64887 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:43:14.204] INFO:     127.0.0.1:65067 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:43:54.460] INFO:     127.0.0.1:65199 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:44:13.285] INFO:     127.0.0.1:65259 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:44:38.004] INFO:     127.0.0.1:65351 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:46:05.483] INFO:     127.0.0.1:49260 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:46:06.776] INFO:     127.0.0.1:49260 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:46:07.213] INFO:     127.0.0.1:49260 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:57:10.439] INFO:     127.0.0.1:51361 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:57:45.699] INFO:     127.0.0.1:51473 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-05-08T21:57:52.663] INFO:     127.0.0.1:51500 - POST /CAS/api/v1/patients HTTP/1.1 - 500 Internal Server Error
+[2024-05-08T21:58:08.424] INFO:     127.0.0.1:51552 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-05-08T21:58:13.633] INFO:     127.0.0.1:51573 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-06-13T21:18:46.269] INFO:     127.0.0.1:60165 - GET / HTTP/1.1 - 200 OK
+[2024-06-13T21:18:46.286] INFO:     127.0.0.1:60165 - GET /favicon.ico HTTP/1.1 - 404 Not Found
+[2024-06-13T21:18:49.761] INFO:     127.0.0.1:60165 - GET / HTTP/1.1 - 200 OK
+[2024-06-13T21:18:50.812] INFO:     127.0.0.1:60165 - GET //docs HTTP/1.1 - 404 Not Found
+[2024-06-13T21:18:54.649] INFO:     127.0.0.1:60165 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-13T21:18:54.762] INFO:     127.0.0.1:60165 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-13T21:19:08.208] INFO:     127.0.0.1:60170 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-13T21:19:08.251] INFO:     127.0.0.1:60170 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-13T21:19:15.107] INFO:     127.0.0.1:60174 - GET /CAS/api/v1/patients/ HTTP/1.1 - 200 OK
+[2024-06-13T21:20:58.116] INFO:     127.0.0.1:60227 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-13T21:20:58.223] INFO:     127.0.0.1:60227 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-13T21:21:06.352] INFO:     127.0.0.1:60230 - GET /CAS/ HTTP/1.1 - 200 OK
+[2024-06-13T21:21:12.318] INFO:     127.0.0.1:60231 - GET /CAS/api/v1/ HTTP/1.1 - 200 OK
+[2024-06-13T21:21:27.214] INFO:     127.0.0.1:60240 - GET /CAS/api/v1/ HTTP/1.1 - 200 OK
+[2024-06-13T21:21:35.448] INFO:     127.0.0.1:60247 - GET /CAS/api/v1/ HTTP/1.1 - 200 OK
+[2024-06-13T21:22:45.708] INFO:     127.0.0.1:60286 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-13T21:22:45.826] INFO:     127.0.0.1:60286 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-13T21:22:51.018] INFO:     127.0.0.1:60288 - GET /CAS/api/v1 HTTP/1.1 - 200 OK
+[2024-06-13T21:23:01.935] INFO:     127.0.0.1:60292 - GET /CAS/ HTTP/1.1 - 200 OK
+[2024-06-13T22:08:38.959] INFO:     127.0.0.1:61804 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-13T22:08:39.072] INFO:     127.0.0.1:61804 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-13T22:08:42.768] INFO:     127.0.0.1:61804 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-06-13T22:09:26.189] INFO:     127.0.0.1:61811 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-13T22:09:26.313] INFO:     127.0.0.1:61811 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-13T22:09:28.810] INFO:     127.0.0.1:61811 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-06-18T20:23:48.626] INFO:     127.0.0.1:59643 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-18T20:23:48.746] INFO:     127.0.0.1:59643 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-18T20:23:48.809] INFO:     127.0.0.1:59644 - GET /apple-touch-icon-precomposed.png HTTP/1.1 - 404 Not Found
+[2024-06-18T20:23:48.812] INFO:     127.0.0.1:59644 - GET /apple-touch-icon.png HTTP/1.1 - 404 Not Found
+[2024-06-18T20:43:16.790] INFO:     127.0.0.1:59722 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-18T20:43:16.923] INFO:     127.0.0.1:59722 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-18T20:43:20.238] INFO:     127.0.0.1:59722 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-18T20:43:20.332] INFO:     127.0.0.1:59722 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-18T20:43:23.579] INFO:     127.0.0.1:59722 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-06-18T20:44:52.297] INFO:     127.0.0.1:59736 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-06-18T20:46:19.828] INFO:     127.0.0.1:59745 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-18T20:46:19.897] INFO:     127.0.0.1:59745 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-18T20:46:47.062] INFO:     127.0.0.1:59747 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-06-18T20:46:52.665] INFO:     127.0.0.1:59748 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-06-22T17:47:13.182] INFO:     127.0.0.1:51936 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-22T17:47:13.339] INFO:     127.0.0.1:51936 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-22T17:47:24.957] INFO:     127.0.0.1:51937 - POST /CAS/api/v1/appointments HTTP/1.1 - 200 OK
+[2024-06-22T17:48:37.498] INFO:     127.0.0.1:51939 - POST /CAS/api/v1/appointments HTTP/1.1 - 200 OK
+[2024-06-22T17:49:08.571] INFO:     127.0.0.1:51959 - POST /CAS/api/v1/appointments HTTP/1.1 - 200 OK
+[2024-06-22T18:23:20.202] INFO:     127.0.0.1:52111 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-22T18:23:58.852] INFO:     127.0.0.1:52118 - POST /CAS/api/v1/appointments HTTP/1.1 - 200 OK
+[2024-06-22T18:24:49.775] INFO:     127.0.0.1:52121 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-22T18:25:22.641] INFO:     127.0.0.1:52125 - POST /CAS/api/v1/appointments HTTP/1.1 - 200 OK
+[2024-06-22T18:25:41.321] INFO:     127.0.0.1:52127 - POST /CAS/api/v1/appointments HTTP/1.1 - 200 OK
+[2024-06-22T18:27:30.254] INFO:     127.0.0.1:52130 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-22T18:27:30.407] INFO:     127.0.0.1:52130 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-25T21:28:41.302] INFO:     127.0.0.1:60835 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:31:11.344] INFO:     127.0.0.1:60872 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-25T21:31:11.537] INFO:     127.0.0.1:60872 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-25T21:31:11.545] INFO:     127.0.0.1:60873 - GET /apple-touch-icon-precomposed.png HTTP/1.1 - 404 Not Found
+[2024-06-25T21:31:11.550] INFO:     127.0.0.1:60873 - GET /apple-touch-icon.png HTTP/1.1 - 404 Not Found
+[2024-06-25T21:32:13.595] INFO:     127.0.0.1:60893 - POST /CAS/api/v1/appointments HTTP/1.1 - 422 Unprocessable Entity
+[2024-06-25T21:33:03.102] INFO:     127.0.0.1:60903 - POST /CAS/api/v1/appointments HTTP/1.1 - 200 OK
+[2024-06-25T21:36:27.411] INFO:     127.0.0.1:60944 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:37:23.593] INFO:     127.0.0.1:60951 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:38:44.304] INFO:     127.0.0.1:60972 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:48:25.680] INFO:     127.0.0.1:61081 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-25T21:48:25.780] INFO:     127.0.0.1:61081 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-25T21:48:26.504] INFO:     127.0.0.1:61081 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-25T21:48:26.606] INFO:     127.0.0.1:61081 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-25T21:48:27.372] INFO:     127.0.0.1:61081 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-25T21:48:27.422] INFO:     127.0.0.1:61081 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-25T21:48:33.745] INFO:     127.0.0.1:61083 - POST /CAS/api/v1/appointments HTTP/1.1 - 200 OK
+[2024-06-25T21:49:10.559] INFO:     127.0.0.1:61092 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:49:41.230] INFO:     127.0.0.1:61099 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:49:52.251] INFO:     127.0.0.1:61100 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:50:02.363] INFO:     127.0.0.1:61104 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:50:11.096] INFO:     127.0.0.1:61107 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:50:11.552] INFO:     127.0.0.1:61107 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:50:11.698] INFO:     127.0.0.1:61107 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:50:11.851] INFO:     127.0.0.1:61107 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:50:12.004] INFO:     127.0.0.1:61107 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:50:12.146] INFO:     127.0.0.1:61107 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:50:12.283] INFO:     127.0.0.1:61107 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:51:51.889] INFO:     127.0.0.1:61157 - POST /CAS/api/v1/appointments HTTP/1.1 - 500 Internal Server Error
+[2024-06-25T21:54:38.658] INFO:     127.0.0.1:61187 - GET /docs HTTP/1.1 - 200 OK
+[2024-06-25T21:54:38.761] INFO:     127.0.0.1:61187 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-06-25T21:54:50.093] INFO:     127.0.0.1:61189 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-06-25T21:54:56.581] INFO:     127.0.0.1:61192 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-06-25T21:55:01.138] INFO:     127.0.0.1:61192 - POST /CAS/api/v1/patients HTTP/1.1 - 409 Conflict
+[2024-06-25T21:55:09.659] INFO:     127.0.0.1:61194 - POST /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-07-04T20:37:38.641] INFO:     127.0.0.1:50492 - GET /CAS/openapi.json HTTP/1.1 - 200 OK
+[2024-07-04T20:37:38.672] INFO:     127.0.0.1:50493 - GET /apple-touch-icon-precomposed.png HTTP/1.1 - 404 Not Found
+[2024-07-04T20:37:38.674] INFO:     127.0.0.1:50493 - GET /apple-touch-icon.png HTTP/1.1 - 404 Not Found
+[2024-07-04T20:45:05.441] INFO:     127.0.0.1:50595 - GET /CAS/api/v1/appointments HTTP/1.1 - 404 Not Found
+[2024-07-04T20:45:15.405] INFO:     127.0.0.1:50599 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-07-04T20:46:20.105] INFO:     127.0.0.1:50620 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-07-04T20:46:48.554] INFO:     127.0.0.1:50626 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-07-04T20:47:32.993] INFO:     127.0.0.1:50632 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-07-04T20:47:39.106] INFO:     127.0.0.1:50636 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-07-04T20:47:45.525] INFO:     127.0.0.1:50639 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK
+[2024-07-04T20:57:12.574] INFO:     127.0.0.1:50664 - GET /CAS/api/v1/patients HTTP/1.1 - 200 OK

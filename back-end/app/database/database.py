@@ -1,19 +1,19 @@
 from sqlalchemy import create_engine, URL, text
 from sqlalchemy.orm import sessionmaker
 
-# from app.configs.config import dbSettings
+from app.configs.config import dbSettings
 # from app.models.auth import Base, User
 
 SQLALCHEMY_DATABASE_URL = URL.create(
   f"postgresql",
-    # username=dbSettings.CLINIC_APPOINTMENT_SYSTEM_DB_USER,
-    # password=dbSettings.CLINIC_APPOINTMENT_SYSTEM_DB_PASSWORD,
-    # host=dbSettings.POSTGRES_HOSTNAME,
-    # database=dbSettings.CLINIC_APPOINTMENT_SYSTEM_DB_NAME
-    username="backend",
-    password="backend",
-    host="127.0.0.1",
-    database="clinic_appointment_system"
+    username=dbSettings.CLINIC_APPOINTMENT_SYSTEM_DB_USER,
+    password=dbSettings.CLINIC_APPOINTMENT_SYSTEM_DB_PASSWORD,
+    host=dbSettings.POSTGRES_HOSTNAME,
+    database=dbSettings.CLINIC_APPOINTMENT_SYSTEM_DB_NAME
+    # username="backend",
+    # password="backend",
+    # host="127.0.0.1",
+    # database="clinic_appointment_system"
     )
 
 Engine = create_engine(

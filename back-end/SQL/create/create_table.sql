@@ -1,5 +1,5 @@
 CREATE TABLE IF NOT EXISTS patients(
-    uid uuid UNIQUE NOT NULL DEFAULT gen_random_uuid (),
+    uid uuid UNIQUE NOT NULL DEFAULT gen_random_uuid(),
     name varchar(60) NOT NULL,
     phone_number varchar(30) NOT NULL,
     create_time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -8,12 +8,12 @@ CREATE TABLE IF NOT EXISTS patients(
 );
 
 CREATE TABLE IF NOT EXISTS users(
-    uid uuid UNIQUE NOT NULL DEFAULT gen_random_uuid (),
+    uid uuid UNIQUE NOT NULL DEFAULT gen_random_uuid(),
     account varchar(60) UNIQUE NOT NULL,
     password varchar(60) NOT NULL,
     name varchar(60) NOT NULL,
     user_group varchar(60) NOT NULL,
-    level smallint NOT NULL CHECK (level >=0 AND level <=2),
+    level smallint NOT NULL CHECK (level >=0 AND level <=3),
     email varchar(120),
     phone_number varchar(30) NOT NULL,
     create_time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -48,7 +48,7 @@ CREATE TABLE IF NOT EXISTS reports(
 );
 
 CREATE TABLE IF NOT EXISTS appointments(
-    uid uuid UNIQUE NOT NULL DEFAULT gen_random_uuid (),
+    uid uuid UNIQUE NOT NULL DEFAULT gen_random_uuid(),
     fk_patient uuid NOT NULL,
     fk_report int,
     fk_user uuid,

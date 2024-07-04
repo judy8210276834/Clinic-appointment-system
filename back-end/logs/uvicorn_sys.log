@@ -105,3 +105,956 @@
 [2024-04-27T20:46:03.799] INFO:     Application startup complete.
 [2024-04-27T20:46:03.799] INFO:     Application startup complete.
 [2024-04-27T20:46:03.799] INFO:     Application startup complete.
+[2024-04-27T22:26:31.243] INFO:     Shutting down
+[2024-04-27T22:26:31.255] INFO:     Shutting down
+[2024-04-27T22:26:31.264] INFO:     Shutting down
+[2024-04-27T22:26:31.347] INFO:     Waiting for application shutdown.
+[2024-04-27T22:26:31.348] INFO:     Application shutdown complete.
+[2024-04-27T22:26:31.349] INFO:     Finished server process [19288]
+[2024-04-27T22:26:31.358] INFO:     Waiting for application shutdown.
+[2024-04-27T22:26:31.359] INFO:     Application shutdown complete.
+[2024-04-27T22:26:31.359] INFO:     Finished server process [19289]
+[2024-04-27T22:26:31.366] INFO:     Waiting for application shutdown.
+[2024-04-27T22:26:31.367] INFO:     Application shutdown complete.
+[2024-04-27T22:26:31.367] INFO:     Finished server process [19287]
+[2024-04-27T22:26:31.485] INFO:     Stopping parent process [19285]
+[2024-04-27T22:26:50.589] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-04-27T22:26:50.589] INFO:     Started parent process [42625]
+[2024-04-27T22:26:51.011] INFO:     Started server process [42627]
+[2024-04-27T22:26:51.011] INFO:     Started server process [42629]
+[2024-04-27T22:26:51.011] INFO:     Started server process [42628]
+[2024-04-27T22:26:51.012] INFO:     Waiting for application startup.
+[2024-04-27T22:26:51.012] INFO:     Waiting for application startup.
+[2024-04-27T22:26:51.012] INFO:     Waiting for application startup.
+[2024-04-27T22:26:51.012] INFO:     Application startup complete.
+[2024-04-27T22:26:51.012] INFO:     Application startup complete.
+[2024-04-27T22:26:51.012] INFO:     Application startup complete.
+[2024-04-27T22:27:00.097] INFO:     Shutting down
+[2024-04-27T22:27:00.099] INFO:     Shutting down
+[2024-04-27T22:27:00.106] INFO:     Shutting down
+[2024-04-27T22:27:00.198] INFO:     Waiting for application shutdown.
+[2024-04-27T22:27:00.198] INFO:     Application shutdown complete.
+[2024-04-27T22:27:00.199] INFO:     Finished server process [42627]
+[2024-04-27T22:27:00.200] INFO:     Waiting for application shutdown.
+[2024-04-27T22:27:00.200] INFO:     Application shutdown complete.
+[2024-04-27T22:27:00.201] INFO:     Finished server process [42628]
+[2024-04-27T22:27:00.206] INFO:     Waiting for application shutdown.
+[2024-04-27T22:27:00.207] INFO:     Application shutdown complete.
+[2024-04-27T22:27:00.207] INFO:     Finished server process [42629]
+[2024-04-27T22:27:00.303] INFO:     Stopping parent process [42625]
+[2024-05-02T21:15:58.279] INFO:     Uvicorn running on http://0.0.0.0:6666 (Press CTRL+C to quit)
+[2024-05-02T21:15:58.279] INFO:     Started parent process [60159]
+[2024-05-02T21:15:58.932] INFO:     Started server process [60165]
+[2024-05-02T21:15:58.932] INFO:     Started server process [60164]
+[2024-05-02T21:15:58.932] INFO:     Waiting for application startup.
+[2024-05-02T21:15:58.932] INFO:     Waiting for application startup.
+[2024-05-02T21:15:58.932] INFO:     Application startup complete.
+[2024-05-02T21:15:58.932] INFO:     Application startup complete.
+[2024-05-02T21:18:14.930] INFO:     Shutting down
+[2024-05-02T21:18:14.931] INFO:     Shutting down
+[2024-05-02T21:18:15.033] INFO:     Waiting for application shutdown.
+[2024-05-02T21:18:15.033] INFO:     Waiting for application shutdown.
+[2024-05-02T21:18:15.035] INFO:     Application shutdown complete.
+[2024-05-02T21:18:15.035] INFO:     Application shutdown complete.
+[2024-05-02T21:18:15.036] INFO:     Finished server process [60164]
+[2024-05-02T21:18:15.036] INFO:     Finished server process [60165]
+[2024-05-02T21:18:15.153] INFO:     Stopping parent process [60159]
+[2024-05-02T21:18:20.621] INFO:     Uvicorn running on http://0.0.0.0:6666 (Press CTRL+C to quit)
+[2024-05-02T21:18:20.622] INFO:     Started parent process [61218]
+[2024-05-02T21:18:21.095] INFO:     Started server process [61221]
+[2024-05-02T21:18:21.095] INFO:     Started server process [61220]
+[2024-05-02T21:18:21.095] INFO:     Waiting for application startup.
+[2024-05-02T21:18:21.095] INFO:     Waiting for application startup.
+[2024-05-02T21:18:21.095] INFO:     Application startup complete.
+[2024-05-02T21:18:21.095] INFO:     Application startup complete.
+[2024-05-02T21:18:42.721] INFO:     Shutting down
+[2024-05-02T21:18:42.721] INFO:     Shutting down
+[2024-05-02T21:18:42.823] INFO:     Waiting for application shutdown.
+[2024-05-02T21:18:42.823] INFO:     Waiting for application shutdown.
+[2024-05-02T21:18:42.824] INFO:     Application shutdown complete.
+[2024-05-02T21:18:42.824] INFO:     Application shutdown complete.
+[2024-05-02T21:18:42.824] INFO:     Finished server process [61221]
+[2024-05-02T21:18:42.824] INFO:     Finished server process [61220]
+[2024-05-02T21:18:42.924] INFO:     Stopping parent process [61218]
+[2024-05-02T21:19:08.600] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-02T21:19:08.600] INFO:     Started parent process [61621]
+[2024-05-02T21:19:09.081] INFO:     Started server process [61623]
+[2024-05-02T21:19:09.081] INFO:     Started server process [61624]
+[2024-05-02T21:19:09.082] INFO:     Waiting for application startup.
+[2024-05-02T21:19:09.082] INFO:     Waiting for application startup.
+[2024-05-02T21:19:09.082] INFO:     Application startup complete.
+[2024-05-02T21:19:09.082] INFO:     Application startup complete.
+[2024-05-02T22:01:46.244] INFO:     Shutting down
+[2024-05-02T22:01:46.245] INFO:     Shutting down
+[2024-05-02T22:01:46.349] INFO:     Waiting for application shutdown.
+[2024-05-02T22:01:46.349] INFO:     Waiting for application shutdown.
+[2024-05-02T22:01:46.350] INFO:     Application shutdown complete.
+[2024-05-02T22:01:46.350] INFO:     Application shutdown complete.
+[2024-05-02T22:01:46.350] INFO:     Finished server process [61624]
+[2024-05-02T22:01:46.350] INFO:     Finished server process [61623]
+[2024-05-02T22:01:46.453] INFO:     Stopping parent process [61621]
+[2024-05-02T22:01:47.809] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-02T22:01:47.809] INFO:     Started parent process [80160]
+[2024-05-02T22:01:48.299] INFO:     Started server process [80169]
+[2024-05-02T22:01:48.299] INFO:     Started server process [80168]
+[2024-05-02T22:01:48.299] INFO:     Waiting for application startup.
+[2024-05-02T22:01:48.300] INFO:     Waiting for application startup.
+[2024-05-02T22:01:48.300] INFO:     Application startup complete.
+[2024-05-02T22:01:48.300] INFO:     Application startup complete.
+[2024-05-02T22:08:35.460] INFO:     Shutting down
+[2024-05-02T22:08:35.459] INFO:     Shutting down
+[2024-05-02T22:08:35.563] INFO:     Waiting for application shutdown.
+[2024-05-02T22:08:35.563] INFO:     Waiting for application shutdown.
+[2024-05-02T22:08:35.565] INFO:     Application shutdown complete.
+[2024-05-02T22:08:35.565] INFO:     Application shutdown complete.
+[2024-05-02T22:08:35.565] INFO:     Finished server process [80169]
+[2024-05-02T22:08:35.565] INFO:     Finished server process [80168]
+[2024-05-02T22:08:35.679] INFO:     Stopping parent process [80160]
+[2024-05-02T22:08:36.894] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-02T22:08:36.895] INFO:     Started parent process [83093]
+[2024-05-02T22:08:37.385] INFO:     Started server process [83097]
+[2024-05-02T22:08:37.386] INFO:     Waiting for application startup.
+[2024-05-02T22:08:37.385] INFO:     Started server process [83098]
+[2024-05-02T22:08:37.386] INFO:     Waiting for application startup.
+[2024-05-02T22:08:37.386] INFO:     Application startup complete.
+[2024-05-02T22:08:37.386] INFO:     Application startup complete.
+[2024-05-02T22:12:30.842] INFO:     Shutting down
+[2024-05-02T22:12:30.878] INFO:     Shutting down
+[2024-05-02T22:12:30.948] INFO:     Waiting for application shutdown.
+[2024-05-02T22:12:30.950] INFO:     Application shutdown complete.
+[2024-05-02T22:12:30.950] INFO:     Finished server process [83098]
+[2024-05-02T22:12:30.982] INFO:     Waiting for application shutdown.
+[2024-05-02T22:12:30.986] INFO:     Application shutdown complete.
+[2024-05-02T22:12:30.986] INFO:     Finished server process [83097]
+[2024-05-02T22:12:31.089] INFO:     Stopping parent process [83093]
+[2024-05-02T22:12:33.117] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-02T22:12:33.117] INFO:     Started parent process [84867]
+[2024-05-02T22:12:33.608] INFO:     Started server process [84873]
+[2024-05-02T22:12:33.608] INFO:     Started server process [84874]
+[2024-05-02T22:12:33.608] INFO:     Waiting for application startup.
+[2024-05-02T22:12:33.608] INFO:     Waiting for application startup.
+[2024-05-02T22:12:33.608] INFO:     Application startup complete.
+[2024-05-02T22:12:33.608] INFO:     Application startup complete.
+[2024-05-02T22:13:31.096] INFO:     Shutting down
+[2024-05-02T22:13:31.096] INFO:     Shutting down
+[2024-05-02T22:13:31.199] INFO:     Waiting for application shutdown.
+[2024-05-02T22:13:31.199] INFO:     Waiting for application shutdown.
+[2024-05-02T22:13:31.200] INFO:     Application shutdown complete.
+[2024-05-02T22:13:31.200] INFO:     Application shutdown complete.
+[2024-05-02T22:13:31.200] INFO:     Finished server process [84873]
+[2024-05-02T22:13:31.200] INFO:     Finished server process [84874]
+[2024-05-02T22:13:31.303] INFO:     Stopping parent process [84867]
+[2024-05-02T22:13:32.652] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-02T22:13:32.652] INFO:     Started parent process [85313]
+[2024-05-02T22:13:33.114] INFO:     Started server process [85333]
+[2024-05-02T22:13:33.114] INFO:     Waiting for application startup.
+[2024-05-02T22:13:33.114] INFO:     Started server process [85332]
+[2024-05-02T22:13:33.114] INFO:     Waiting for application startup.
+[2024-05-02T22:13:33.114] INFO:     Application startup complete.
+[2024-05-02T22:13:33.115] INFO:     Application startup complete.
+[2024-05-02T22:20:24.292] INFO:     Shutting down
+[2024-05-02T22:20:24.300] INFO:     Shutting down
+[2024-05-02T22:20:24.395] INFO:     Waiting for application shutdown.
+[2024-05-02T22:20:24.397] INFO:     Application shutdown complete.
+[2024-05-02T22:20:24.397] INFO:     Finished server process [85332]
+[2024-05-02T22:20:24.403] INFO:     Waiting for application shutdown.
+[2024-05-02T22:20:24.404] INFO:     Application shutdown complete.
+[2024-05-02T22:20:24.404] INFO:     Finished server process [85333]
+[2024-05-02T22:20:24.516] INFO:     Stopping parent process [85313]
+[2024-05-02T22:20:25.537] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-02T22:20:25.537] INFO:     Started parent process [88339]
+[2024-05-02T22:20:26.035] INFO:     Started server process [88341]
+[2024-05-02T22:20:26.035] INFO:     Started server process [88342]
+[2024-05-02T22:20:26.035] INFO:     Waiting for application startup.
+[2024-05-02T22:20:26.035] INFO:     Waiting for application startup.
+[2024-05-02T22:20:26.035] INFO:     Application startup complete.
+[2024-05-02T22:20:26.035] INFO:     Application startup complete.
+[2024-05-02T22:21:24.953] INFO:     Shutting down
+[2024-05-02T22:21:24.984] INFO:     Shutting down
+[2024-05-02T22:21:25.058] INFO:     Waiting for application shutdown.
+[2024-05-02T22:21:25.058] INFO:     Application shutdown complete.
+[2024-05-02T22:21:25.059] INFO:     Finished server process [88342]
+[2024-05-02T22:21:25.086] INFO:     Waiting for application shutdown.
+[2024-05-02T22:21:25.087] INFO:     Application shutdown complete.
+[2024-05-02T22:21:25.087] INFO:     Finished server process [88341]
+[2024-05-02T22:21:25.171] INFO:     Stopping parent process [88339]
+[2024-05-02T22:21:26.360] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-02T22:21:26.360] INFO:     Started parent process [88802]
+[2024-05-02T22:21:26.848] INFO:     Started server process [88806]
+[2024-05-02T22:21:26.849] INFO:     Waiting for application startup.
+[2024-05-02T22:21:26.849] INFO:     Application startup complete.
+[2024-05-02T22:21:26.849] INFO:     Started server process [88805]
+[2024-05-02T22:21:26.849] INFO:     Waiting for application startup.
+[2024-05-02T22:21:26.849] INFO:     Application startup complete.
+[2024-05-02T22:26:26.786] INFO:     Shutting down
+[2024-05-02T22:26:26.832] INFO:     Shutting down
+[2024-05-02T22:26:26.890] INFO:     Waiting for application shutdown.
+[2024-05-02T22:26:26.891] INFO:     Application shutdown complete.
+[2024-05-02T22:26:26.891] INFO:     Finished server process [88806]
+[2024-05-02T22:26:26.935] INFO:     Waiting for application shutdown.
+[2024-05-02T22:26:26.935] INFO:     Application shutdown complete.
+[2024-05-02T22:26:26.936] INFO:     Finished server process [88805]
+[2024-05-02T22:26:27.027] INFO:     Stopping parent process [88802]
+[2024-05-08T20:45:58.315] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T20:45:58.315] INFO:     Started parent process [20288]
+[2024-05-08T20:45:58.813] INFO:     Started server process [20298]
+[2024-05-08T20:45:58.813] INFO:     Started server process [20297]
+[2024-05-08T20:45:58.814] INFO:     Waiting for application startup.
+[2024-05-08T20:45:58.814] INFO:     Waiting for application startup.
+[2024-05-08T20:45:58.814] INFO:     Application startup complete.
+[2024-05-08T20:45:58.814] INFO:     Application startup complete.
+[2024-05-08T20:58:41.733] INFO:     Shutting down
+[2024-05-08T20:58:41.733] INFO:     Shutting down
+[2024-05-08T20:58:41.839] INFO:     Waiting for application shutdown.
+[2024-05-08T20:58:41.840] INFO:     Application shutdown complete.
+[2024-05-08T20:58:41.839] INFO:     Waiting for application shutdown.
+[2024-05-08T20:58:41.840] INFO:     Finished server process [20297]
+[2024-05-08T20:58:41.841] INFO:     Application shutdown complete.
+[2024-05-08T20:58:41.841] INFO:     Finished server process [20298]
+[2024-05-08T20:58:41.942] INFO:     Stopping parent process [20288]
+[2024-05-08T20:58:42.885] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T20:58:42.885] INFO:     Started parent process [28334]
+[2024-05-08T20:58:43.355] INFO:     Started server process [28336]
+[2024-05-08T20:58:43.355] INFO:     Started server process [28337]
+[2024-05-08T20:58:43.355] INFO:     Waiting for application startup.
+[2024-05-08T20:58:43.355] INFO:     Waiting for application startup.
+[2024-05-08T20:58:43.355] INFO:     Application startup complete.
+[2024-05-08T20:58:43.355] INFO:     Application startup complete.
+[2024-05-08T21:05:50.583] INFO:     Shutting down
+[2024-05-08T21:05:50.598] INFO:     Shutting down
+[2024-05-08T21:05:50.688] INFO:     Waiting for application shutdown.
+[2024-05-08T21:05:50.689] INFO:     Application shutdown complete.
+[2024-05-08T21:05:50.689] INFO:     Finished server process [28337]
+[2024-05-08T21:05:50.700] INFO:     Waiting for application shutdown.
+[2024-05-08T21:05:50.701] INFO:     Application shutdown complete.
+[2024-05-08T21:05:50.701] INFO:     Finished server process [28336]
+[2024-05-08T21:05:50.798] INFO:     Stopping parent process [28334]
+[2024-05-08T21:05:51.874] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:05:51.874] INFO:     Started parent process [32839]
+[2024-05-08T21:05:52.353] INFO:     Started server process [32842]
+[2024-05-08T21:05:52.353] INFO:     Waiting for application startup.
+[2024-05-08T21:05:52.353] INFO:     Application startup complete.
+[2024-05-08T21:05:52.353] INFO:     Started server process [32841]
+[2024-05-08T21:05:52.353] INFO:     Waiting for application startup.
+[2024-05-08T21:05:52.353] INFO:     Application startup complete.
+[2024-05-08T21:06:16.494] INFO:     Shutting down
+[2024-05-08T21:06:16.498] INFO:     Shutting down
+[2024-05-08T21:06:16.597] INFO:     Waiting for application shutdown.
+[2024-05-08T21:06:16.599] INFO:     Application shutdown complete.
+[2024-05-08T21:06:16.599] INFO:     Finished server process [32842]
+[2024-05-08T21:06:16.599] INFO:     Waiting for application shutdown.
+[2024-05-08T21:06:16.600] INFO:     Application shutdown complete.
+[2024-05-08T21:06:16.601] INFO:     Finished server process [32841]
+[2024-05-08T21:06:16.705] INFO:     Stopping parent process [32839]
+[2024-05-08T21:06:17.788] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:06:17.788] INFO:     Started parent process [33144]
+[2024-05-08T21:06:18.254] INFO:     Started server process [33146]
+[2024-05-08T21:06:18.254] INFO:     Started server process [33147]
+[2024-05-08T21:06:18.255] INFO:     Waiting for application startup.
+[2024-05-08T21:06:18.255] INFO:     Waiting for application startup.
+[2024-05-08T21:06:18.255] INFO:     Application startup complete.
+[2024-05-08T21:06:18.255] INFO:     Application startup complete.
+[2024-05-08T21:06:41.893] INFO:     Shutting down
+[2024-05-08T21:06:41.895] INFO:     Shutting down
+[2024-05-08T21:06:41.996] INFO:     Waiting for application shutdown.
+[2024-05-08T21:06:41.996] INFO:     Waiting for application shutdown.
+[2024-05-08T21:06:41.997] INFO:     Application shutdown complete.
+[2024-05-08T21:06:41.997] INFO:     Application shutdown complete.
+[2024-05-08T21:06:41.997] INFO:     Finished server process [33147]
+[2024-05-08T21:06:41.997] INFO:     Finished server process [33146]
+[2024-05-08T21:06:42.093] INFO:     Stopping parent process [33144]
+[2024-05-08T21:06:42.990] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:06:42.991] INFO:     Started parent process [33430]
+[2024-05-08T21:06:43.459] INFO:     Started server process [33433]
+[2024-05-08T21:06:43.459] INFO:     Started server process [33432]
+[2024-05-08T21:06:43.459] INFO:     Waiting for application startup.
+[2024-05-08T21:06:43.459] INFO:     Waiting for application startup.
+[2024-05-08T21:06:43.459] INFO:     Application startup complete.
+[2024-05-08T21:06:43.459] INFO:     Application startup complete.
+[2024-05-08T21:09:33.696] INFO:     Shutting down
+[2024-05-08T21:09:33.697] INFO:     Shutting down
+[2024-05-08T21:09:33.799] INFO:     Waiting for application shutdown.
+[2024-05-08T21:09:33.799] INFO:     Waiting for application shutdown.
+[2024-05-08T21:09:33.799] INFO:     Application shutdown complete.
+[2024-05-08T21:09:33.799] INFO:     Finished server process [33433]
+[2024-05-08T21:09:33.799] INFO:     Application shutdown complete.
+[2024-05-08T21:09:33.799] INFO:     Finished server process [33432]
+[2024-05-08T21:09:33.886] INFO:     Stopping parent process [33430]
+[2024-05-08T21:09:35.051] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:09:35.052] INFO:     Started parent process [35269]
+[2024-05-08T21:09:35.525] INFO:     Started server process [35274]
+[2024-05-08T21:09:35.525] INFO:     Waiting for application startup.
+[2024-05-08T21:09:35.525] INFO:     Application startup complete.
+[2024-05-08T21:09:35.525] INFO:     Started server process [35275]
+[2024-05-08T21:09:35.525] INFO:     Waiting for application startup.
+[2024-05-08T21:09:35.525] INFO:     Application startup complete.
+[2024-05-08T21:10:43.724] INFO:     Shutting down
+[2024-05-08T21:10:43.724] INFO:     Shutting down
+[2024-05-08T21:10:43.826] INFO:     Waiting for application shutdown.
+[2024-05-08T21:10:43.826] INFO:     Waiting for application shutdown.
+[2024-05-08T21:10:43.827] INFO:     Application shutdown complete.
+[2024-05-08T21:10:43.827] INFO:     Application shutdown complete.
+[2024-05-08T21:10:43.828] INFO:     Finished server process [35275]
+[2024-05-08T21:10:43.828] INFO:     Finished server process [35274]
+[2024-05-08T21:10:43.923] INFO:     Stopping parent process [35269]
+[2024-05-08T21:10:44.710] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:10:44.710] INFO:     Started parent process [36005]
+[2024-05-08T21:10:45.174] INFO:     Started server process [36008]
+[2024-05-08T21:10:45.174] INFO:     Started server process [36007]
+[2024-05-08T21:10:45.174] INFO:     Waiting for application startup.
+[2024-05-08T21:10:45.174] INFO:     Waiting for application startup.
+[2024-05-08T21:10:45.174] INFO:     Application startup complete.
+[2024-05-08T21:10:45.174] INFO:     Application startup complete.
+[2024-05-08T21:11:10.027] INFO:     Shutting down
+[2024-05-08T21:11:10.033] INFO:     Shutting down
+[2024-05-08T21:11:10.129] INFO:     Waiting for application shutdown.
+[2024-05-08T21:11:10.129] INFO:     Application shutdown complete.
+[2024-05-08T21:11:10.129] INFO:     Finished server process [36007]
+[2024-05-08T21:11:10.134] INFO:     Waiting for application shutdown.
+[2024-05-08T21:11:10.135] INFO:     Application shutdown complete.
+[2024-05-08T21:11:10.135] INFO:     Finished server process [36008]
+[2024-05-08T21:11:10.211] INFO:     Stopping parent process [36005]
+[2024-05-08T21:11:11.116] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:11:11.116] INFO:     Started parent process [36314]
+[2024-05-08T21:11:11.585] INFO:     Started server process [36316]
+[2024-05-08T21:11:11.585] INFO:     Started server process [36317]
+[2024-05-08T21:11:11.586] INFO:     Waiting for application startup.
+[2024-05-08T21:11:11.586] INFO:     Waiting for application startup.
+[2024-05-08T21:11:11.586] INFO:     Application startup complete.
+[2024-05-08T21:11:11.586] INFO:     Application startup complete.
+[2024-05-08T21:14:48.617] INFO:     Shutting down
+[2024-05-08T21:14:48.620] INFO:     Shutting down
+[2024-05-08T21:14:48.721] INFO:     Waiting for application shutdown.
+[2024-05-08T21:14:48.722] INFO:     Waiting for application shutdown.
+[2024-05-08T21:14:48.722] INFO:     Application shutdown complete.
+[2024-05-08T21:14:48.723] INFO:     Finished server process [36317]
+[2024-05-08T21:14:48.723] INFO:     Application shutdown complete.
+[2024-05-08T21:14:48.723] INFO:     Finished server process [36316]
+[2024-05-08T21:14:48.830] INFO:     Stopping parent process [36314]
+[2024-05-08T21:14:50.100] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:14:50.100] INFO:     Started parent process [38601]
+[2024-05-08T21:14:50.572] INFO:     Started server process [38625]
+[2024-05-08T21:14:50.573] INFO:     Waiting for application startup.
+[2024-05-08T21:14:50.573] INFO:     Application startup complete.
+[2024-05-08T21:14:50.573] INFO:     Started server process [38624]
+[2024-05-08T21:14:50.573] INFO:     Waiting for application startup.
+[2024-05-08T21:14:50.573] INFO:     Application startup complete.
+[2024-05-08T21:15:15.126] INFO:     Shutting down
+[2024-05-08T21:15:15.128] INFO:     Shutting down
+[2024-05-08T21:15:15.228] INFO:     Waiting for application shutdown.
+[2024-05-08T21:15:15.228] INFO:     Waiting for application shutdown.
+[2024-05-08T21:15:15.229] INFO:     Application shutdown complete.
+[2024-05-08T21:15:15.229] INFO:     Finished server process [38624]
+[2024-05-08T21:15:15.229] INFO:     Application shutdown complete.
+[2024-05-08T21:15:15.229] INFO:     Finished server process [38625]
+[2024-05-08T21:15:15.314] INFO:     Stopping parent process [38601]
+[2024-05-08T21:15:16.488] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:15:16.488] INFO:     Started parent process [38914]
+[2024-05-08T21:15:16.960] INFO:     Started server process [38916]
+[2024-05-08T21:15:16.960] INFO:     Started server process [38917]
+[2024-05-08T21:15:16.961] INFO:     Waiting for application startup.
+[2024-05-08T21:15:16.961] INFO:     Waiting for application startup.
+[2024-05-08T21:15:16.961] INFO:     Application startup complete.
+[2024-05-08T21:15:16.961] INFO:     Application startup complete.
+[2024-05-08T21:16:24.979] INFO:     Shutting down
+[2024-05-08T21:16:24.982] INFO:     Shutting down
+[2024-05-08T21:16:25.083] INFO:     Waiting for application shutdown.
+[2024-05-08T21:16:25.084] INFO:     Application shutdown complete.
+[2024-05-08T21:16:25.084] INFO:     Waiting for application shutdown.
+[2024-05-08T21:16:25.085] INFO:     Finished server process [38917]
+[2024-05-08T21:16:25.085] INFO:     Application shutdown complete.
+[2024-05-08T21:16:25.085] INFO:     Finished server process [38916]
+[2024-05-08T21:16:25.190] INFO:     Stopping parent process [38914]
+[2024-05-08T21:16:25.950] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:16:25.951] INFO:     Started parent process [39659]
+[2024-05-08T21:16:26.425] INFO:     Started server process [39662]
+[2024-05-08T21:16:26.425] INFO:     Started server process [39661]
+[2024-05-08T21:16:26.425] INFO:     Waiting for application startup.
+[2024-05-08T21:16:26.426] INFO:     Waiting for application startup.
+[2024-05-08T21:16:26.426] INFO:     Application startup complete.
+[2024-05-08T21:16:26.426] INFO:     Application startup complete.
+[2024-05-08T21:21:43.564] INFO:     Shutting down
+[2024-05-08T21:21:43.564] INFO:     Shutting down
+[2024-05-08T21:21:43.666] INFO:     Waiting for application shutdown.
+[2024-05-08T21:21:43.666] INFO:     Application shutdown complete.
+[2024-05-08T21:21:43.666] INFO:     Finished server process [39662]
+[2024-05-08T21:21:43.666] INFO:     Waiting for application shutdown.
+[2024-05-08T21:21:43.667] INFO:     Application shutdown complete.
+[2024-05-08T21:21:43.667] INFO:     Finished server process [39661]
+[2024-05-08T21:21:43.756] INFO:     Stopping parent process [39659]
+[2024-05-08T21:21:44.877] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:21:44.877] INFO:     Started parent process [43041]
+[2024-05-08T21:21:45.348] INFO:     Started server process [43043]
+[2024-05-08T21:21:45.348] INFO:     Waiting for application startup.
+[2024-05-08T21:21:45.348] INFO:     Started server process [43044]
+[2024-05-08T21:21:45.348] INFO:     Waiting for application startup.
+[2024-05-08T21:21:45.348] INFO:     Application startup complete.
+[2024-05-08T21:21:45.349] INFO:     Application startup complete.
+[2024-05-08T21:23:02.960] INFO:     Shutting down
+[2024-05-08T21:23:02.963] INFO:     Shutting down
+[2024-05-08T21:23:03.064] INFO:     Waiting for application shutdown.
+[2024-05-08T21:23:03.065] INFO:     Waiting for application shutdown.
+[2024-05-08T21:23:03.065] INFO:     Application shutdown complete.
+[2024-05-08T21:23:03.066] INFO:     Finished server process [43043]
+[2024-05-08T21:23:03.066] INFO:     Application shutdown complete.
+[2024-05-08T21:23:03.066] INFO:     Finished server process [43044]
+[2024-05-08T21:23:03.174] INFO:     Stopping parent process [43041]
+[2024-05-08T21:23:04.533] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:23:04.533] INFO:     Started parent process [43898]
+[2024-05-08T21:23:05.006] INFO:     Started server process [43901]
+[2024-05-08T21:23:05.006] INFO:     Waiting for application startup.
+[2024-05-08T21:23:05.006] INFO:     Started server process [43900]
+[2024-05-08T21:23:05.006] INFO:     Waiting for application startup.
+[2024-05-08T21:23:05.006] INFO:     Application startup complete.
+[2024-05-08T21:23:05.006] INFO:     Application startup complete.
+[2024-05-08T21:23:19.252] INFO:     Shutting down
+[2024-05-08T21:23:19.252] INFO:     Shutting down
+[2024-05-08T21:23:19.353] INFO:     Waiting for application shutdown.
+[2024-05-08T21:23:19.353] INFO:     Waiting for application shutdown.
+[2024-05-08T21:23:19.354] INFO:     Application shutdown complete.
+[2024-05-08T21:23:19.354] INFO:     Application shutdown complete.
+[2024-05-08T21:23:19.354] INFO:     Finished server process [43901]
+[2024-05-08T21:23:19.354] INFO:     Finished server process [43900]
+[2024-05-08T21:23:19.448] INFO:     Stopping parent process [43898]
+[2024-05-08T21:23:20.314] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:23:20.314] INFO:     Started parent process [44072]
+[2024-05-08T21:23:20.800] INFO:     Started server process [44075]
+[2024-05-08T21:23:20.800] INFO:     Waiting for application startup.
+[2024-05-08T21:23:20.800] INFO:     Started server process [44074]
+[2024-05-08T21:23:20.801] INFO:     Waiting for application startup.
+[2024-05-08T21:23:20.801] INFO:     Application startup complete.
+[2024-05-08T21:23:20.801] INFO:     Application startup complete.
+[2024-05-08T21:24:10.021] INFO:     Shutting down
+[2024-05-08T21:24:10.023] INFO:     Shutting down
+[2024-05-08T21:24:10.125] INFO:     Waiting for application shutdown.
+[2024-05-08T21:24:10.126] INFO:     Waiting for application shutdown.
+[2024-05-08T21:24:10.126] INFO:     Application shutdown complete.
+[2024-05-08T21:24:10.127] INFO:     Finished server process [44074]
+[2024-05-08T21:24:10.127] INFO:     Application shutdown complete.
+[2024-05-08T21:24:10.127] INFO:     Finished server process [44075]
+[2024-05-08T21:24:10.234] INFO:     Stopping parent process [44072]
+[2024-05-08T21:24:12.326] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:24:12.326] INFO:     Started parent process [44637]
+[2024-05-08T21:24:12.796] INFO:     Started server process [44639]
+[2024-05-08T21:24:12.796] INFO:     Started server process [44640]
+[2024-05-08T21:24:12.796] INFO:     Waiting for application startup.
+[2024-05-08T21:24:12.796] INFO:     Waiting for application startup.
+[2024-05-08T21:24:12.796] INFO:     Application startup complete.
+[2024-05-08T21:24:12.796] INFO:     Application startup complete.
+[2024-05-08T21:25:24.544] INFO:     Shutting down
+[2024-05-08T21:25:24.544] INFO:     Shutting down
+[2024-05-08T21:25:24.647] INFO:     Waiting for application shutdown.
+[2024-05-08T21:25:24.647] INFO:     Waiting for application shutdown.
+[2024-05-08T21:25:24.647] INFO:     Application shutdown complete.
+[2024-05-08T21:25:24.648] INFO:     Application shutdown complete.
+[2024-05-08T21:25:24.648] INFO:     Finished server process [44639]
+[2024-05-08T21:25:24.648] INFO:     Finished server process [44640]
+[2024-05-08T21:25:24.745] INFO:     Stopping parent process [44637]
+[2024-05-08T21:25:25.678] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:25:25.678] INFO:     Started parent process [45439]
+[2024-05-08T21:25:26.159] INFO:     Started server process [45442]
+[2024-05-08T21:25:26.159] INFO:     Waiting for application startup.
+[2024-05-08T21:25:26.159] INFO:     Application startup complete.
+[2024-05-08T21:25:26.159] INFO:     Started server process [45441]
+[2024-05-08T21:25:26.159] INFO:     Waiting for application startup.
+[2024-05-08T21:25:26.160] INFO:     Application startup complete.
+[2024-05-08T21:25:40.909] INFO:     Shutting down
+[2024-05-08T21:25:40.909] INFO:     Shutting down
+[2024-05-08T21:25:41.011] INFO:     Waiting for application shutdown.
+[2024-05-08T21:25:41.011] INFO:     Waiting for application shutdown.
+[2024-05-08T21:25:41.012] INFO:     Application shutdown complete.
+[2024-05-08T21:25:41.012] INFO:     Application shutdown complete.
+[2024-05-08T21:25:41.012] INFO:     Finished server process [45442]
+[2024-05-08T21:25:41.012] INFO:     Finished server process [45441]
+[2024-05-08T21:25:41.126] INFO:     Stopping parent process [45439]
+[2024-05-08T21:25:41.772] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:25:41.773] INFO:     Started parent process [45637]
+[2024-05-08T21:25:42.226] INFO:     Started server process [45640]
+[2024-05-08T21:25:42.226] INFO:     Waiting for application startup.
+[2024-05-08T21:25:42.226] INFO:     Started server process [45639]
+[2024-05-08T21:25:42.226] INFO:     Application startup complete.
+[2024-05-08T21:25:42.226] INFO:     Waiting for application startup.
+[2024-05-08T21:25:42.226] INFO:     Application startup complete.
+[2024-05-08T21:26:01.113] INFO:     Shutting down
+[2024-05-08T21:26:01.114] INFO:     Shutting down
+[2024-05-08T21:26:01.215] INFO:     Waiting for application shutdown.
+[2024-05-08T21:26:01.216] INFO:     Waiting for application shutdown.
+[2024-05-08T21:26:01.216] INFO:     Application shutdown complete.
+[2024-05-08T21:26:01.217] INFO:     Application shutdown complete.
+[2024-05-08T21:26:01.217] INFO:     Finished server process [45640]
+[2024-05-08T21:26:01.217] INFO:     Finished server process [45639]
+[2024-05-08T21:26:01.331] INFO:     Stopping parent process [45637]
+[2024-05-08T21:26:02.241] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:26:02.241] INFO:     Started parent process [45871]
+[2024-05-08T21:26:02.716] INFO:     Started server process [45873]
+[2024-05-08T21:26:02.716] INFO:     Started server process [45874]
+[2024-05-08T21:26:02.716] INFO:     Waiting for application startup.
+[2024-05-08T21:26:02.716] INFO:     Waiting for application startup.
+[2024-05-08T21:26:02.716] INFO:     Application startup complete.
+[2024-05-08T21:26:02.716] INFO:     Application startup complete.
+[2024-05-08T21:26:19.184] INFO:     Shutting down
+[2024-05-08T21:26:19.184] INFO:     Shutting down
+[2024-05-08T21:26:19.286] INFO:     Waiting for application shutdown.
+[2024-05-08T21:26:19.286] INFO:     Waiting for application shutdown.
+[2024-05-08T21:26:19.287] INFO:     Application shutdown complete.
+[2024-05-08T21:26:19.287] INFO:     Application shutdown complete.
+[2024-05-08T21:26:19.287] INFO:     Finished server process [45874]
+[2024-05-08T21:26:19.287] INFO:     Finished server process [45873]
+[2024-05-08T21:26:19.384] INFO:     Stopping parent process [45871]
+[2024-05-08T21:26:20.370] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:26:20.370] INFO:     Started parent process [46064]
+[2024-05-08T21:26:20.837] INFO:     Started server process [46088]
+[2024-05-08T21:26:20.837] INFO:     Started server process [46089]
+[2024-05-08T21:26:20.838] INFO:     Waiting for application startup.
+[2024-05-08T21:26:20.838] INFO:     Waiting for application startup.
+[2024-05-08T21:26:20.838] INFO:     Application startup complete.
+[2024-05-08T21:26:20.838] INFO:     Application startup complete.
+[2024-05-08T21:26:56.201] INFO:     Shutting down
+[2024-05-08T21:26:56.202] INFO:     Shutting down
+[2024-05-08T21:26:56.303] INFO:     Waiting for application shutdown.
+[2024-05-08T21:26:56.304] INFO:     Waiting for application shutdown.
+[2024-05-08T21:26:56.304] INFO:     Application shutdown complete.
+[2024-05-08T21:26:56.304] INFO:     Application shutdown complete.
+[2024-05-08T21:26:56.304] INFO:     Finished server process [46088]
+[2024-05-08T21:26:56.304] INFO:     Finished server process [46089]
+[2024-05-08T21:26:56.409] INFO:     Stopping parent process [46064]
+[2024-05-08T21:26:57.271] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:26:57.272] INFO:     Started parent process [46479]
+[2024-05-08T21:26:57.736] INFO:     Started server process [46482]
+[2024-05-08T21:26:57.736] INFO:     Started server process [46481]
+[2024-05-08T21:26:57.737] INFO:     Waiting for application startup.
+[2024-05-08T21:26:57.737] INFO:     Waiting for application startup.
+[2024-05-08T21:26:57.737] INFO:     Application startup complete.
+[2024-05-08T21:26:57.737] INFO:     Application startup complete.
+[2024-05-08T21:29:41.511] INFO:     Shutting down
+[2024-05-08T21:29:41.511] INFO:     Shutting down
+[2024-05-08T21:29:41.614] INFO:     Waiting for application shutdown.
+[2024-05-08T21:29:41.613] INFO:     Waiting for application shutdown.
+[2024-05-08T21:29:41.614] INFO:     Application shutdown complete.
+[2024-05-08T21:29:41.615] INFO:     Finished server process [46482]
+[2024-05-08T21:29:41.615] INFO:     Application shutdown complete.
+[2024-05-08T21:29:41.615] INFO:     Finished server process [46481]
+[2024-05-08T21:29:41.717] INFO:     Stopping parent process [46479]
+[2024-05-08T21:29:42.643] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:29:42.643] INFO:     Started parent process [48224]
+[2024-05-08T21:29:43.129] INFO:     Started server process [48227]
+[2024-05-08T21:29:43.130] INFO:     Waiting for application startup.
+[2024-05-08T21:29:43.130] INFO:     Started server process [48226]
+[2024-05-08T21:29:43.130] INFO:     Waiting for application startup.
+[2024-05-08T21:29:43.130] INFO:     Application startup complete.
+[2024-05-08T21:29:43.130] INFO:     Application startup complete.
+[2024-05-08T21:30:03.549] INFO:     Shutting down
+[2024-05-08T21:30:03.552] INFO:     Shutting down
+[2024-05-08T21:30:03.651] INFO:     Waiting for application shutdown.
+[2024-05-08T21:30:03.653] INFO:     Application shutdown complete.
+[2024-05-08T21:30:03.653] INFO:     Finished server process [48227]
+[2024-05-08T21:30:03.654] INFO:     Waiting for application shutdown.
+[2024-05-08T21:30:03.654] INFO:     Application shutdown complete.
+[2024-05-08T21:30:03.654] INFO:     Finished server process [48226]
+[2024-05-08T21:30:03.761] INFO:     Stopping parent process [48224]
+[2024-05-08T21:30:04.431] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:30:04.431] INFO:     Started parent process [48480]
+[2024-05-08T21:30:04.888] INFO:     Started server process [48483]
+[2024-05-08T21:30:04.888] INFO:     Started server process [48484]
+[2024-05-08T21:30:04.888] INFO:     Waiting for application startup.
+[2024-05-08T21:30:04.888] INFO:     Waiting for application startup.
+[2024-05-08T21:30:04.889] INFO:     Application startup complete.
+[2024-05-08T21:30:04.889] INFO:     Application startup complete.
+[2024-05-08T21:42:11.005] INFO:     Shutting down
+[2024-05-08T21:42:11.006] INFO:     Shutting down
+[2024-05-08T21:42:11.107] INFO:     Waiting for application shutdown.
+[2024-05-08T21:42:11.107] INFO:     Waiting for application shutdown.
+[2024-05-08T21:42:11.108] INFO:     Application shutdown complete.
+[2024-05-08T21:42:11.108] INFO:     Finished server process [48484]
+[2024-05-08T21:42:11.108] INFO:     Application shutdown complete.
+[2024-05-08T21:42:11.108] INFO:     Finished server process [48483]
+[2024-05-08T21:42:11.202] INFO:     Stopping parent process [48480]
+[2024-05-08T21:42:15.776] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:42:15.777] INFO:     Started parent process [56071]
+[2024-05-08T21:42:16.241] INFO:     Started server process [56074]
+[2024-05-08T21:42:16.241] INFO:     Started server process [56075]
+[2024-05-08T21:42:16.242] INFO:     Waiting for application startup.
+[2024-05-08T21:42:16.242] INFO:     Waiting for application startup.
+[2024-05-08T21:42:16.242] INFO:     Application startup complete.
+[2024-05-08T21:42:16.242] INFO:     Application startup complete.
+[2024-05-08T21:43:10.092] INFO:     Shutting down
+[2024-05-08T21:43:10.092] INFO:     Shutting down
+[2024-05-08T21:43:10.194] INFO:     Waiting for application shutdown.
+[2024-05-08T21:43:10.194] INFO:     Waiting for application shutdown.
+[2024-05-08T21:43:10.195] INFO:     Application shutdown complete.
+[2024-05-08T21:43:10.195] INFO:     Application shutdown complete.
+[2024-05-08T21:43:10.195] INFO:     Finished server process [56075]
+[2024-05-08T21:43:10.195] INFO:     Finished server process [56074]
+[2024-05-08T21:43:10.293] INFO:     Stopping parent process [56071]
+[2024-05-08T21:43:10.995] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:43:10.995] INFO:     Started parent process [56654]
+[2024-05-08T21:43:11.452] INFO:     Started server process [56657]
+[2024-05-08T21:43:11.452] INFO:     Waiting for application startup.
+[2024-05-08T21:43:11.453] INFO:     Application startup complete.
+[2024-05-08T21:43:11.453] INFO:     Started server process [56656]
+[2024-05-08T21:43:11.453] INFO:     Waiting for application startup.
+[2024-05-08T21:43:11.453] INFO:     Application startup complete.
+[2024-05-08T21:43:50.959] INFO:     Shutting down
+[2024-05-08T21:43:50.961] INFO:     Shutting down
+[2024-05-08T21:43:51.062] INFO:     Waiting for application shutdown.
+[2024-05-08T21:43:51.063] INFO:     Waiting for application shutdown.
+[2024-05-08T21:43:51.063] INFO:     Application shutdown complete.
+[2024-05-08T21:43:51.064] INFO:     Finished server process [56656]
+[2024-05-08T21:43:51.064] INFO:     Application shutdown complete.
+[2024-05-08T21:43:51.064] INFO:     Finished server process [56657]
+[2024-05-08T21:43:51.171] INFO:     Stopping parent process [56654]
+[2024-05-08T21:43:51.900] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:43:51.900] INFO:     Started parent process [57115]
+[2024-05-08T21:43:52.368] INFO:     Started server process [57120]
+[2024-05-08T21:43:52.368] INFO:     Started server process [57119]
+[2024-05-08T21:43:52.369] INFO:     Waiting for application startup.
+[2024-05-08T21:43:52.369] INFO:     Waiting for application startup.
+[2024-05-08T21:43:52.369] INFO:     Application startup complete.
+[2024-05-08T21:43:52.369] INFO:     Application startup complete.
+[2024-05-08T21:45:57.344] INFO:     Shutting down
+[2024-05-08T21:45:57.344] INFO:     Shutting down
+[2024-05-08T21:45:57.446] INFO:     Waiting for application shutdown.
+[2024-05-08T21:45:57.446] INFO:     Waiting for application shutdown.
+[2024-05-08T21:45:57.447] INFO:     Application shutdown complete.
+[2024-05-08T21:45:57.447] INFO:     Application shutdown complete.
+[2024-05-08T21:45:57.447] INFO:     Finished server process [57120]
+[2024-05-08T21:45:57.447] INFO:     Finished server process [57119]
+[2024-05-08T21:45:57.554] INFO:     Stopping parent process [57115]
+[2024-05-08T21:46:00.387] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:46:00.387] INFO:     Started parent process [58502]
+[2024-05-08T21:46:00.862] INFO:     Started server process [58504]
+[2024-05-08T21:46:00.862] INFO:     Started server process [58505]
+[2024-05-08T21:46:00.862] INFO:     Waiting for application startup.
+[2024-05-08T21:46:00.862] INFO:     Waiting for application startup.
+[2024-05-08T21:46:00.862] INFO:     Application startup complete.
+[2024-05-08T21:46:00.862] INFO:     Application startup complete.
+[2024-05-08T21:57:03.259] INFO:     Shutting down
+[2024-05-08T21:57:03.260] INFO:     Shutting down
+[2024-05-08T21:57:03.363] INFO:     Waiting for application shutdown.
+[2024-05-08T21:57:03.364] INFO:     Waiting for application shutdown.
+[2024-05-08T21:57:03.364] INFO:     Application shutdown complete.
+[2024-05-08T21:57:03.365] INFO:     Finished server process [58504]
+[2024-05-08T21:57:03.365] INFO:     Application shutdown complete.
+[2024-05-08T21:57:03.365] INFO:     Finished server process [58505]
+[2024-05-08T21:57:03.469] INFO:     Stopping parent process [58502]
+[2024-05-08T21:57:04.619] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:57:04.619] INFO:     Started parent process [65416]
+[2024-05-08T21:57:05.093] INFO:     Started server process [65441]
+[2024-05-08T21:57:05.093] INFO:     Waiting for application startup.
+[2024-05-08T21:57:05.093] INFO:     Started server process [65442]
+[2024-05-08T21:57:05.093] INFO:     Waiting for application startup.
+[2024-05-08T21:57:05.093] INFO:     Application startup complete.
+[2024-05-08T21:57:05.093] INFO:     Application startup complete.
+[2024-05-08T21:58:03.694] INFO:     Shutting down
+[2024-05-08T21:58:03.695] INFO:     Shutting down
+[2024-05-08T21:58:03.796] INFO:     Waiting for application shutdown.
+[2024-05-08T21:58:03.797] INFO:     Application shutdown complete.
+[2024-05-08T21:58:03.797] INFO:     Finished server process [65442]
+[2024-05-08T21:58:03.797] INFO:     Waiting for application shutdown.
+[2024-05-08T21:58:03.798] INFO:     Application shutdown complete.
+[2024-05-08T21:58:03.798] INFO:     Finished server process [65441]
+[2024-05-08T21:58:03.896] INFO:     Stopping parent process [65416]
+[2024-05-08T21:58:04.862] INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[2024-05-08T21:58:04.862] INFO:     Started parent process [66068]
+[2024-05-08T21:58:05.335] INFO:     Started server process [66071]
+[2024-05-08T21:58:05.335] INFO:     Started server process [66070]
+[2024-05-08T21:58:05.335] INFO:     Waiting for application startup.
+[2024-05-08T21:58:05.335] INFO:     Waiting for application startup.
+[2024-05-08T21:58:05.336] INFO:     Application startup complete.
+[2024-05-08T21:58:05.336] INFO:     Application startup complete.
+[2024-06-13T21:16:22.456] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-13T21:16:22.456] INFO:     Started parent process [64149]
+[2024-06-13T21:16:23.098] INFO:     Started server process [64153]
+[2024-06-13T21:16:23.098] INFO:     Started server process [64152]
+[2024-06-13T21:16:23.098] INFO:     Waiting for application startup.
+[2024-06-13T21:16:23.098] INFO:     Waiting for application startup.
+[2024-06-13T21:16:23.098] INFO:     Application startup complete.
+[2024-06-13T21:16:23.098] INFO:     Application startup complete.
+[2024-06-13T21:17:30.484] INFO:     Shutting down
+[2024-06-13T21:17:30.485] INFO:     Shutting down
+[2024-06-13T21:17:30.587] INFO:     Waiting for application shutdown.
+[2024-06-13T21:17:30.587] INFO:     Waiting for application shutdown.
+[2024-06-13T21:17:30.588] INFO:     Application shutdown complete.
+[2024-06-13T21:17:30.588] INFO:     Application shutdown complete.
+[2024-06-13T21:17:30.588] INFO:     Finished server process [64153]
+[2024-06-13T21:17:30.588] INFO:     Finished server process [64152]
+[2024-06-13T21:17:30.689] INFO:     Stopping parent process [64149]
+[2024-06-13T21:17:32.985] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-13T21:17:32.986] INFO:     Started parent process [64625]
+[2024-06-13T21:17:33.460] INFO:     Started server process [64628]
+[2024-06-13T21:17:33.460] INFO:     Started server process [64627]
+[2024-06-13T21:17:33.460] INFO:     Waiting for application startup.
+[2024-06-13T21:17:33.460] INFO:     Waiting for application startup.
+[2024-06-13T21:17:33.460] INFO:     Application startup complete.
+[2024-06-13T21:17:33.460] INFO:     Application startup complete.
+[2024-06-13T21:20:51.544] INFO:     Shutting down
+[2024-06-13T21:20:51.545] INFO:     Shutting down
+[2024-06-13T21:20:51.649] INFO:     Waiting for application shutdown.
+[2024-06-13T21:20:51.649] INFO:     Waiting for application shutdown.
+[2024-06-13T21:20:51.651] INFO:     Application shutdown complete.
+[2024-06-13T21:20:51.651] INFO:     Application shutdown complete.
+[2024-06-13T21:20:51.651] INFO:     Finished server process [64627]
+[2024-06-13T21:20:51.652] INFO:     Finished server process [64628]
+[2024-06-13T21:20:51.767] INFO:     Stopping parent process [64625]
+[2024-06-13T21:20:52.835] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-13T21:20:52.836] INFO:     Started parent process [65924]
+[2024-06-13T21:20:53.325] INFO:     Started server process [65927]
+[2024-06-13T21:20:53.325] INFO:     Waiting for application startup.
+[2024-06-13T21:20:53.325] INFO:     Application startup complete.
+[2024-06-13T21:20:53.331] INFO:     Started server process [65926]
+[2024-06-13T21:20:53.331] INFO:     Waiting for application startup.
+[2024-06-13T21:20:53.331] INFO:     Application startup complete.
+[2024-06-13T21:21:30.112] INFO:     Shutting down
+[2024-06-13T21:21:30.113] INFO:     Shutting down
+[2024-06-13T21:21:30.214] INFO:     Waiting for application shutdown.
+[2024-06-13T21:21:30.214] INFO:     Waiting for application shutdown.
+[2024-06-13T21:21:30.214] INFO:     Application shutdown complete.
+[2024-06-13T21:21:30.214] INFO:     Application shutdown complete.
+[2024-06-13T21:21:30.214] INFO:     Finished server process [65926]
+[2024-06-13T21:21:30.214] INFO:     Finished server process [65927]
+[2024-06-13T21:21:30.301] INFO:     Stopping parent process [65924]
+[2024-06-13T21:21:31.508] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-13T21:21:31.508] INFO:     Started parent process [66194]
+[2024-06-13T21:21:31.988] INFO:     Started server process [66197]
+[2024-06-13T21:21:31.988] INFO:     Started server process [66196]
+[2024-06-13T21:21:31.991] INFO:     Waiting for application startup.
+[2024-06-13T21:21:31.991] INFO:     Waiting for application startup.
+[2024-06-13T21:21:31.992] INFO:     Application startup complete.
+[2024-06-13T21:21:31.992] INFO:     Application startup complete.
+[2024-06-13T21:22:33.030] INFO:     Shutting down
+[2024-06-13T21:22:33.032] INFO:     Shutting down
+[2024-06-13T21:22:33.135] INFO:     Waiting for application shutdown.
+[2024-06-13T21:22:33.135] INFO:     Waiting for application shutdown.
+[2024-06-13T21:22:33.136] INFO:     Application shutdown complete.
+[2024-06-13T21:22:33.136] INFO:     Application shutdown complete.
+[2024-06-13T21:22:33.136] INFO:     Finished server process [66196]
+[2024-06-13T21:22:33.136] INFO:     Finished server process [66197]
+[2024-06-13T21:22:33.250] INFO:     Stopping parent process [66194]
+[2024-06-13T21:22:34.192] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-13T21:22:34.192] INFO:     Started parent process [66622]
+[2024-06-13T21:22:34.685] INFO:     Started server process [66624]
+[2024-06-13T21:22:34.685] INFO:     Started server process [66625]
+[2024-06-13T21:22:34.685] INFO:     Waiting for application startup.
+[2024-06-13T21:22:34.685] INFO:     Waiting for application startup.
+[2024-06-13T21:22:34.685] INFO:     Application startup complete.
+[2024-06-13T21:22:34.685] INFO:     Application startup complete.
+[2024-06-13T22:08:29.112] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-13T22:08:29.113] INFO:     Started parent process [88416]
+[2024-06-13T22:08:29.595] INFO:     Started server process [88423]
+[2024-06-13T22:08:29.595] INFO:     Started server process [88424]
+[2024-06-13T22:08:29.596] INFO:     Waiting for application startup.
+[2024-06-13T22:08:29.596] INFO:     Waiting for application startup.
+[2024-06-13T22:08:29.596] INFO:     Application startup complete.
+[2024-06-13T22:08:29.596] INFO:     Application startup complete.
+[2024-06-13T22:09:06.694] INFO:     Shutting down
+[2024-06-13T22:09:06.694] INFO:     Shutting down
+[2024-06-13T22:09:06.797] INFO:     Waiting for application shutdown.
+[2024-06-13T22:09:06.797] INFO:     Waiting for application shutdown.
+[2024-06-13T22:09:06.798] INFO:     Application shutdown complete.
+[2024-06-13T22:09:06.798] INFO:     Application shutdown complete.
+[2024-06-13T22:09:06.798] INFO:     Finished server process [88424]
+[2024-06-13T22:09:06.798] INFO:     Finished server process [88423]
+[2024-06-13T22:09:06.907] INFO:     Stopping parent process [88416]
+[2024-06-13T22:09:07.988] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-13T22:09:07.988] INFO:     Started parent process [88702]
+[2024-06-13T22:09:08.462] INFO:     Started server process [88709]
+[2024-06-13T22:09:08.462] INFO:     Started server process [88708]
+[2024-06-13T22:09:08.462] INFO:     Waiting for application startup.
+[2024-06-13T22:09:08.462] INFO:     Waiting for application startup.
+[2024-06-13T22:09:08.462] INFO:     Application startup complete.
+[2024-06-13T22:09:08.462] INFO:     Application startup complete.
+[2024-06-18T20:43:08.300] INFO:     Shutting down
+[2024-06-18T20:43:08.300] INFO:     Shutting down
+[2024-06-18T20:43:08.406] INFO:     Waiting for application shutdown.
+[2024-06-18T20:43:08.405] INFO:     Waiting for application shutdown.
+[2024-06-18T20:43:08.408] INFO:     Application shutdown complete.
+[2024-06-18T20:43:08.408] INFO:     Application shutdown complete.
+[2024-06-18T20:43:08.408] INFO:     Finished server process [88709]
+[2024-06-18T20:43:08.408] INFO:     Finished server process [88708]
+[2024-06-18T20:43:08.547] INFO:     Stopping parent process [88702]
+[2024-06-18T20:43:10.264] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-18T20:43:10.264] INFO:     Started parent process [17752]
+[2024-06-18T20:43:10.794] INFO:     Started server process [17771]
+[2024-06-18T20:43:10.794] INFO:     Started server process [17770]
+[2024-06-18T20:43:10.794] INFO:     Waiting for application startup.
+[2024-06-18T20:43:10.794] INFO:     Waiting for application startup.
+[2024-06-18T20:43:10.794] INFO:     Application startup complete.
+[2024-06-18T20:43:10.794] INFO:     Application startup complete.
+[2024-06-18T20:44:45.483] INFO:     Shutting down
+[2024-06-18T20:44:45.486] INFO:     Shutting down
+[2024-06-18T20:44:45.587] INFO:     Waiting for application shutdown.
+[2024-06-18T20:44:45.588] INFO:     Application shutdown complete.
+[2024-06-18T20:44:45.588] INFO:     Waiting for application shutdown.
+[2024-06-18T20:44:45.589] INFO:     Finished server process [17770]
+[2024-06-18T20:44:45.590] INFO:     Application shutdown complete.
+[2024-06-18T20:44:45.590] INFO:     Finished server process [17771]
+[2024-06-18T20:44:45.719] INFO:     Stopping parent process [17752]
+[2024-06-18T20:44:47.127] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-18T20:44:47.127] INFO:     Started parent process [18413]
+[2024-06-18T20:44:47.607] INFO:     Started server process [18418]
+[2024-06-18T20:44:47.607] INFO:     Started server process [18419]
+[2024-06-18T20:44:47.607] INFO:     Waiting for application startup.
+[2024-06-18T20:44:47.607] INFO:     Waiting for application startup.
+[2024-06-18T20:44:47.607] INFO:     Application startup complete.
+[2024-06-18T20:44:47.607] INFO:     Application startup complete.
+[2024-06-18T20:46:14.626] INFO:     Shutting down
+[2024-06-18T20:46:14.629] INFO:     Shutting down
+[2024-06-18T20:46:14.729] INFO:     Waiting for application shutdown.
+[2024-06-18T20:46:14.729] INFO:     Application shutdown complete.
+[2024-06-18T20:46:14.730] INFO:     Finished server process [18418]
+[2024-06-18T20:46:14.731] INFO:     Waiting for application shutdown.
+[2024-06-18T20:46:14.731] INFO:     Application shutdown complete.
+[2024-06-18T20:46:14.731] INFO:     Finished server process [18419]
+[2024-06-18T20:46:14.832] INFO:     Stopping parent process [18413]
+[2024-06-18T20:46:16.156] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-18T20:46:16.157] INFO:     Started parent process [18995]
+[2024-06-18T20:46:16.639] INFO:     Started server process [19000]
+[2024-06-18T20:46:16.639] INFO:     Started server process [19001]
+[2024-06-18T20:46:16.639] INFO:     Waiting for application startup.
+[2024-06-18T20:46:16.639] INFO:     Waiting for application startup.
+[2024-06-18T20:46:16.640] INFO:     Application startup complete.
+[2024-06-18T20:46:16.640] INFO:     Application startup complete.
+[2024-06-22T17:38:53.110] INFO:     Shutting down
+[2024-06-22T17:38:53.104] INFO:     Shutting down
+[2024-06-22T17:38:53.222] INFO:     Waiting for application shutdown.
+[2024-06-22T17:38:53.223] INFO:     Waiting for application shutdown.
+[2024-06-22T17:38:53.228] INFO:     Application shutdown complete.
+[2024-06-22T17:38:53.229] INFO:     Finished server process [19000]
+[2024-06-22T17:38:53.233] INFO:     Application shutdown complete.
+[2024-06-22T17:38:53.235] INFO:     Finished server process [19001]
+[2024-06-22T17:38:53.395] INFO:     Stopping parent process [18995]
+[2024-06-22T17:47:03.038] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-22T17:47:03.038] INFO:     Started parent process [80509]
+[2024-06-22T17:47:03.547] INFO:     Started server process [80523]
+[2024-06-22T17:47:03.547] INFO:     Started server process [80524]
+[2024-06-22T17:47:03.547] INFO:     Waiting for application startup.
+[2024-06-22T17:47:03.547] INFO:     Waiting for application startup.
+[2024-06-22T17:47:03.547] INFO:     Application startup complete.
+[2024-06-22T17:47:03.547] INFO:     Application startup complete.
+[2024-06-22T17:49:01.589] INFO:     Shutting down
+[2024-06-22T17:49:01.589] INFO:     Shutting down
+[2024-06-22T17:49:01.691] INFO:     Waiting for application shutdown.
+[2024-06-22T17:49:01.692] INFO:     Application shutdown complete.
+[2024-06-22T17:49:01.692] INFO:     Waiting for application shutdown.
+[2024-06-22T17:49:01.693] INFO:     Finished server process [80523]
+[2024-06-22T17:49:01.693] INFO:     Application shutdown complete.
+[2024-06-22T17:49:01.694] INFO:     Finished server process [80524]
+[2024-06-22T17:49:01.813] INFO:     Stopping parent process [80509]
+[2024-06-22T17:49:02.696] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-22T17:49:02.696] INFO:     Started parent process [81292]
+[2024-06-22T17:49:03.188] INFO:     Started server process [81295]
+[2024-06-22T17:49:03.188] INFO:     Started server process [81294]
+[2024-06-22T17:49:03.188] INFO:     Waiting for application startup.
+[2024-06-22T17:49:03.188] INFO:     Waiting for application startup.
+[2024-06-22T17:49:03.188] INFO:     Application startup complete.
+[2024-06-22T17:49:03.188] INFO:     Application startup complete.
+[2024-06-22T18:23:12.719] INFO:     Shutting down
+[2024-06-22T18:23:12.720] INFO:     Shutting down
+[2024-06-22T18:23:12.823] INFO:     Waiting for application shutdown.
+[2024-06-22T18:23:12.823] INFO:     Waiting for application shutdown.
+[2024-06-22T18:23:12.824] INFO:     Application shutdown complete.
+[2024-06-22T18:23:12.825] INFO:     Application shutdown complete.
+[2024-06-22T18:23:12.825] INFO:     Finished server process [81295]
+[2024-06-22T18:23:12.825] INFO:     Finished server process [81294]
+[2024-06-22T18:23:12.941] INFO:     Stopping parent process [81292]
+[2024-06-22T18:23:15.438] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-22T18:23:15.438] INFO:     Started parent process [94152]
+[2024-06-22T18:23:15.949] INFO:     Started server process [94154]
+[2024-06-22T18:23:15.949] INFO:     Started server process [94155]
+[2024-06-22T18:23:15.949] INFO:     Waiting for application startup.
+[2024-06-22T18:23:15.949] INFO:     Waiting for application startup.
+[2024-06-22T18:23:15.949] INFO:     Application startup complete.
+[2024-06-22T18:23:15.949] INFO:     Application startup complete.
+[2024-06-22T18:23:52.132] INFO:     Shutting down
+[2024-06-22T18:23:52.137] INFO:     Shutting down
+[2024-06-22T18:23:52.236] INFO:     Waiting for application shutdown.
+[2024-06-22T18:23:52.237] INFO:     Application shutdown complete.
+[2024-06-22T18:23:52.237] INFO:     Finished server process [94154]
+[2024-06-22T18:23:52.237] INFO:     Waiting for application shutdown.
+[2024-06-22T18:23:52.238] INFO:     Application shutdown complete.
+[2024-06-22T18:23:52.238] INFO:     Finished server process [94155]
+[2024-06-22T18:23:52.338] INFO:     Stopping parent process [94152]
+[2024-06-22T18:23:53.702] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-22T18:23:53.702] INFO:     Started parent process [94425]
+[2024-06-22T18:23:54.181] INFO:     Started server process [94429]
+[2024-06-22T18:23:54.181] INFO:     Started server process [94430]
+[2024-06-22T18:23:54.181] INFO:     Waiting for application startup.
+[2024-06-22T18:23:54.181] INFO:     Waiting for application startup.
+[2024-06-22T18:23:54.181] INFO:     Application startup complete.
+[2024-06-22T18:23:54.181] INFO:     Application startup complete.
+[2024-06-22T18:25:16.328] INFO:     Shutting down
+[2024-06-22T18:25:16.332] INFO:     Shutting down
+[2024-06-22T18:25:16.429] INFO:     Waiting for application shutdown.
+[2024-06-22T18:25:16.430] INFO:     Application shutdown complete.
+[2024-06-22T18:25:16.430] INFO:     Finished server process [94430]
+[2024-06-22T18:25:16.434] INFO:     Waiting for application shutdown.
+[2024-06-22T18:25:16.434] INFO:     Application shutdown complete.
+[2024-06-22T18:25:16.434] INFO:     Finished server process [94429]
+[2024-06-22T18:25:16.531] INFO:     Stopping parent process [94425]
+[2024-06-22T18:25:17.509] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-22T18:25:17.509] INFO:     Started parent process [94968]
+[2024-06-22T18:25:18.006] INFO:     Started server process [94971]
+[2024-06-22T18:25:18.006] INFO:     Started server process [94970]
+[2024-06-22T18:25:18.006] INFO:     Waiting for application startup.
+[2024-06-22T18:25:18.006] INFO:     Waiting for application startup.
+[2024-06-22T18:25:18.006] INFO:     Application startup complete.
+[2024-06-22T18:25:18.006] INFO:     Application startup complete.
+[2024-06-25T21:28:17.658] INFO:     Shutting down
+[2024-06-25T21:28:17.659] INFO:     Shutting down
+[2024-06-25T21:28:17.771] INFO:     Waiting for application shutdown.
+[2024-06-25T21:28:17.777] INFO:     Application shutdown complete.
+[2024-06-25T21:28:17.775] INFO:     Waiting for application shutdown.
+[2024-06-25T21:28:17.779] INFO:     Finished server process [94970]
+[2024-06-25T21:28:17.784] INFO:     Application shutdown complete.
+[2024-06-25T21:28:17.785] INFO:     Finished server process [94971]
+[2024-06-25T21:28:17.959] INFO:     Stopping parent process [94968]
+[2024-06-25T21:28:19.886] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-25T21:28:19.886] INFO:     Started parent process [14064]
+[2024-06-25T21:28:20.408] INFO:     Started server process [14069]
+[2024-06-25T21:28:20.408] INFO:     Started server process [14070]
+[2024-06-25T21:28:20.408] INFO:     Waiting for application startup.
+[2024-06-25T21:28:20.408] INFO:     Waiting for application startup.
+[2024-06-25T21:28:20.408] INFO:     Application startup complete.
+[2024-06-25T21:28:20.408] INFO:     Application startup complete.
+[2024-06-25T21:29:20.124] INFO:     Shutting down
+[2024-06-25T21:29:20.124] INFO:     Shutting down
+[2024-06-25T21:29:20.227] INFO:     Waiting for application shutdown.
+[2024-06-25T21:29:20.227] INFO:     Waiting for application shutdown.
+[2024-06-25T21:29:20.228] INFO:     Application shutdown complete.
+[2024-06-25T21:29:20.228] INFO:     Finished server process [14070]
+[2024-06-25T21:29:20.228] INFO:     Application shutdown complete.
+[2024-06-25T21:29:20.229] INFO:     Finished server process [14069]
+[2024-06-25T21:29:20.352] INFO:     Stopping parent process [14064]
+[2024-06-25T21:29:21.518] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-25T21:29:21.518] INFO:     Started parent process [14485]
+[2024-06-25T21:29:22.016] INFO:     Started server process [14500]
+[2024-06-25T21:29:22.016] INFO:     Started server process [14499]
+[2024-06-25T21:29:22.016] INFO:     Waiting for application startup.
+[2024-06-25T21:29:22.016] INFO:     Waiting for application startup.
+[2024-06-25T21:29:22.016] INFO:     Application startup complete.
+[2024-06-25T21:29:22.016] INFO:     Application startup complete.
+[2024-06-25T21:51:45.168] INFO:     Shutting down
+[2024-06-25T21:51:45.173] INFO:     Shutting down
+[2024-06-25T21:51:45.270] INFO:     Waiting for application shutdown.
+[2024-06-25T21:51:45.272] INFO:     Application shutdown complete.
+[2024-06-25T21:51:45.272] INFO:     Finished server process [14500]
+[2024-06-25T21:51:45.276] INFO:     Waiting for application shutdown.
+[2024-06-25T21:51:45.277] INFO:     Application shutdown complete.
+[2024-06-25T21:51:45.278] INFO:     Finished server process [14499]
+[2024-06-25T21:51:45.402] INFO:     Stopping parent process [14485]
+[2024-06-25T21:51:47.102] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-06-25T21:51:47.103] INFO:     Started parent process [23048]
+[2024-06-25T21:51:47.598] INFO:     Started server process [23051]
+[2024-06-25T21:51:47.598] INFO:     Started server process [23052]
+[2024-06-25T21:51:47.598] INFO:     Waiting for application startup.
+[2024-06-25T21:51:47.598] INFO:     Waiting for application startup.
+[2024-06-25T21:51:47.599] INFO:     Application startup complete.
+[2024-06-25T21:51:47.599] INFO:     Application startup complete.
+[2024-07-04T20:37:05.887] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-07-04T20:37:05.887] INFO:     Started parent process [9339]
+[2024-07-04T20:37:06.403] INFO:     Started server process [9341]
+[2024-07-04T20:37:06.403] INFO:     Started server process [9342]
+[2024-07-04T20:37:06.403] INFO:     Waiting for application startup.
+[2024-07-04T20:37:06.403] INFO:     Waiting for application startup.
+[2024-07-04T20:37:06.403] INFO:     Application startup complete.
+[2024-07-04T20:37:06.403] INFO:     Application startup complete.

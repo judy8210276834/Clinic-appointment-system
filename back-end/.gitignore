@@ -3,3 +3,4 @@ cas/
 schema.xlsx
 *.env
 .vscode/
+tests/
