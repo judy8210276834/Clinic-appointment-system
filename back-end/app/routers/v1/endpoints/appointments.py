@@ -81,9 +81,6 @@ async def create_appointment(
                 Patients.phone_number==data.phone_number
                 )\
             .one_or_none()
-        print(patient_data)
-        # print(patient_data.__dict__)
-        print("create patients")
 
         if patient_data is None:
             patient = Patients(
@@ -91,16 +88,15 @@ async def create_appointment(
                 phone_number=data.phone_number
             )
             await create_patient(patient, db)
+
             patient_data = db.query(Patients)\
             .filter(
                 Patients.name==data.name,
                 Patients.phone_number==data.phone_number
                 )\
             .one_or_none()
-            print("patient created successfully")
         
         fk_patient = patient_data.uid
-        print("fk_patient", fk_patient)
 
     except Exception as e:
         system_logger.error(exception_message(e))

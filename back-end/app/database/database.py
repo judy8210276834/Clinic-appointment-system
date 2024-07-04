@@ -24,13 +24,14 @@ Engine = create_engine(
 Session = sessionmaker(bind=Engine)
 session = Session()
 
+### Test DB connection
 # test_command = text("CREATE TABLE IF NOT EXISTS testtttt (id SERIAL, PRIMARY KEY (id))")
-test_command = text("SELECT * FROM patients")
-result = session.execute(test_command)
-print(result)
-for item in result:
-    print(item)
-session.commit()
+# test_command = text("SELECT * FROM patients")
+# result = session.execute(test_command)
+# print(result)
+# for item in result:
+#     print(item)
+# session.commit()
 
 def get_conn():
     

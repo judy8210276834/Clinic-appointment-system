@@ -1058,3 +1058,37 @@
 [2024-07-04T20:37:06.403] INFO:     Waiting for application startup.
 [2024-07-04T20:37:06.403] INFO:     Application startup complete.
 [2024-07-04T20:37:06.403] INFO:     Application startup complete.
+[2024-07-04T21:00:10.570] INFO:     Shutting down
+[2024-07-04T21:00:10.568] INFO:     Shutting down
+[2024-07-04T21:00:10.672] INFO:     Waiting for application shutdown.
+[2024-07-04T21:00:10.673] INFO:     Waiting for application shutdown.
+[2024-07-04T21:00:10.673] INFO:     Application shutdown complete.
+[2024-07-04T21:00:10.674] INFO:     Finished server process [9341]
+[2024-07-04T21:00:10.675] INFO:     Application shutdown complete.
+[2024-07-04T21:00:10.675] INFO:     Finished server process [9342]
+[2024-07-04T21:00:10.789] INFO:     Stopping parent process [9339]
+[2024-07-04T21:00:11.779] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-07-04T21:00:11.779] INFO:     Started parent process [18401]
+[2024-07-04T21:00:12.273] INFO:     Started server process [18403]
+[2024-07-04T21:00:12.273] INFO:     Started server process [18404]
+[2024-07-04T21:00:12.273] INFO:     Waiting for application startup.
+[2024-07-04T21:00:12.273] INFO:     Waiting for application startup.
+[2024-07-04T21:00:12.274] INFO:     Application startup complete.
+[2024-07-04T21:00:12.274] INFO:     Application startup complete.
+[2024-07-04T21:01:00.572] INFO:     Shutting down
+[2024-07-04T21:01:00.583] INFO:     Shutting down
+[2024-07-04T21:01:00.675] INFO:     Waiting for application shutdown.
+[2024-07-04T21:01:00.676] INFO:     Application shutdown complete.
+[2024-07-04T21:01:00.676] INFO:     Finished server process [18403]
+[2024-07-04T21:01:00.685] INFO:     Waiting for application shutdown.
+[2024-07-04T21:01:00.686] INFO:     Application shutdown complete.
+[2024-07-04T21:01:00.686] INFO:     Finished server process [18404]
+[2024-07-04T21:01:00.776] INFO:     Stopping parent process [18401]
+[2024-07-04T21:01:01.623] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-07-04T21:01:01.623] INFO:     Started parent process [18731]
+[2024-07-04T21:01:02.062] INFO:     Started server process [18746]
+[2024-07-04T21:01:02.062] INFO:     Started server process [18747]
+[2024-07-04T21:01:02.062] INFO:     Waiting for application startup.
+[2024-07-04T21:01:02.062] INFO:     Waiting for application startup.
+[2024-07-04T21:01:02.062] INFO:     Application startup complete.
+[2024-07-04T21:01:02.062] INFO:     Application startup complete.
