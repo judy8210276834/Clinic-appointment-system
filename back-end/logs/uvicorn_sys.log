@@ -1092,3 +1092,63 @@
 [2024-07-04T21:01:02.062] INFO:     Waiting for application startup.
 [2024-07-04T21:01:02.062] INFO:     Application startup complete.
 [2024-07-04T21:01:02.062] INFO:     Application startup complete.
+[2024-07-04T21:17:13.725] INFO:     Shutting down
+[2024-07-04T21:17:13.725] INFO:     Shutting down
+[2024-07-04T21:17:13.829] INFO:     Waiting for application shutdown.
+[2024-07-04T21:17:13.830] INFO:     Waiting for application shutdown.
+[2024-07-04T21:17:13.831] INFO:     Application shutdown complete.
+[2024-07-04T21:17:13.832] INFO:     Application shutdown complete.
+[2024-07-04T21:17:13.832] INFO:     Finished server process [18747]
+[2024-07-04T21:17:13.832] INFO:     Finished server process [18746]
+[2024-07-04T21:17:13.940] INFO:     Stopping parent process [18731]
+[2024-07-04T21:17:24.165] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-07-04T21:17:24.165] INFO:     Started parent process [24985]
+[2024-07-04T21:17:24.609] INFO:     Started server process [24988]
+[2024-07-04T21:17:24.609] INFO:     Started server process [24987]
+[2024-07-04T21:17:24.610] INFO:     Waiting for application startup.
+[2024-07-04T21:17:24.610] INFO:     Waiting for application startup.
+[2024-07-04T21:17:24.610] INFO:     Application startup complete.
+[2024-07-04T21:17:24.610] INFO:     Application startup complete.
+[2024-07-13T11:11:39.735] INFO:     Shutting down
+[2024-07-13T11:11:39.736] INFO:     Shutting down
+[2024-07-13T11:11:39.842] INFO:     Waiting for application shutdown.
+[2024-07-13T11:11:39.842] INFO:     Waiting for application shutdown.
+[2024-07-13T11:11:39.843] INFO:     Application shutdown complete.
+[2024-07-13T11:11:39.843] INFO:     Application shutdown complete.
+[2024-07-13T11:11:39.843] INFO:     Finished server process [24988]
+[2024-07-13T11:11:39.844] INFO:     Finished server process [24987]
+[2024-07-13T11:11:39.972] INFO:     Stopping parent process [24985]
+[2024-07-13T11:11:42.262] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-07-13T11:11:42.262] INFO:     Started parent process [26993]
+[2024-07-13T11:11:42.919] INFO:     Started server process [27014]
+[2024-07-13T11:11:42.919] INFO:     Started server process [27013]
+[2024-07-13T11:11:42.919] INFO:     Waiting for application startup.
+[2024-07-13T11:11:42.919] INFO:     Waiting for application startup.
+[2024-07-13T11:11:42.919] INFO:     Application startup complete.
+[2024-07-13T11:11:42.919] INFO:     Application startup complete.
+[2024-07-13T11:18:58.262] INFO:     Shutting down
+[2024-07-13T11:18:58.275] INFO:     Shutting down
+[2024-07-13T11:18:58.366] INFO:     Waiting for application shutdown.
+[2024-07-13T11:18:58.368] INFO:     Application shutdown complete.
+[2024-07-13T11:18:58.369] INFO:     Finished server process [27014]
+[2024-07-13T11:18:58.378] INFO:     Waiting for application shutdown.
+[2024-07-13T11:18:58.380] INFO:     Application shutdown complete.
+[2024-07-13T11:18:58.380] INFO:     Finished server process [27013]
+[2024-07-13T11:18:58.488] INFO:     Stopping parent process [26993]
+[2024-07-13T11:19:34.612] INFO:     Uvicorn running on http://0.0.0.0:5555 (Press CTRL+C to quit)
+[2024-07-13T11:19:34.612] INFO:     Started parent process [30080]
+[2024-07-13T11:19:35.067] INFO:     Started server process [30083]
+[2024-07-13T11:19:35.067] INFO:     Started server process [30082]
+[2024-07-13T11:19:35.067] INFO:     Waiting for application startup.
+[2024-07-13T11:19:35.067] INFO:     Waiting for application startup.
+[2024-07-13T11:19:35.067] INFO:     Application startup complete.
+[2024-07-13T11:19:35.067] INFO:     Application startup complete.
+[2024-07-13T11:55:15.503] INFO:     Shutting down
+[2024-07-13T11:55:15.509] INFO:     Shutting down
+[2024-07-13T11:55:15.606] INFO:     Waiting for application shutdown.
+[2024-07-13T11:55:15.607] INFO:     Application shutdown complete.
+[2024-07-13T11:55:15.608] INFO:     Finished server process [30082]
+[2024-07-13T11:55:15.612] INFO:     Waiting for application shutdown.
+[2024-07-13T11:55:15.614] INFO:     Application shutdown complete.
+[2024-07-13T11:55:15.614] INFO:     Finished server process [30083]
+[2024-07-13T11:55:15.727] INFO:     Stopping parent process [30080]
